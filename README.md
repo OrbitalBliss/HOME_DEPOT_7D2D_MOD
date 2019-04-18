@@ -1,4 +1,5 @@
 Home Depot Mod -- for 7 Days to Die [Alpha 17.2]
+------------------------------------------------
 V1.0 by OrbitalBliss
 
 Welcome to Home Depot where, if you can't buy it, we can help you build it.
