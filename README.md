@@ -13,7 +13,7 @@ ADDED TRADER ITEMS
 In this section we've added many (if not most) items that exist in game already, but cannot be acquired.  These are added to the Traders decorations lists, with Economic Values and Repair Materials added for those items missing them. Also, slightly boosted the number of Decorative items Traders carry.
 
 Here’s a list: WallOven, UtilitySink, HungSink, MicrowaveOven, RetroFridge, FridgeStainlessSteel, StoveOld, WashingMachine, TrashCompactor, Mirror, ShowerHead, BathTubEmpty, Toilet01, Toilet02, Toilet03, MedicineCabinet A, MedicineCabinet B, PillCase, Radiator, SchoolDesk, ShoppingBasket, LeatherCouchSofa, BarracksChair, Paintings (x6), CharcoalGrillClosed, CharcoalGrillOpen, GasGrillClosed, GasGrillOpen, BirdBathPlanter, Gurney, HospitalBed, FileCabinetShort, FileCabinetTall, LockersTall A, LockersTall B, LockersTall C, HeatVent, HeatVentIndustrial, LaundryBasket, FancyGarbageCan, Dumpster, WaterCoolerBottle, CoolerOpen, SatelliteDish, SatelliteDishSmall, MetalSlide, SwingSet, StationaryBike, Treadmill, WeightBar, BenchPress, Duffle01, WeaponsBagSmall, WeaponsBagLarge, Purse01, Suitcase, LuggageMedium, LuggageBig, Backpack01, Backpack03, AirConditionVentFan, ConditionVentFanDouble, SignRoadStop, SignRoadStop4way, SignRoadSlow, SignRoadPrivate, SignRoadWork, CommercialBlindsTop, CommercialBlindsBottom
-
+
 ADDED RECIPES
 --------------------
 In this section we added recipes for the handyman.  A number of reasonably simple items (coffee table) and several related items (most of the cabinets) were added a recipes, many of them requiring Tablesaw and some of them requiring Perk levels.
@@ -42,7 +42,7 @@ FIX SOME STRANGE UPGRADES, REPAIRS, & ECONOMIC VALUES
 A few items already in the game had either screwy economic values, or repair settings.  And a few even have goofy upgrades.  I think most of these were simply overlooked.  We fixed those.
 
 Here’s a list: cntWaterCoolerFull, cntBookcaseFull, woodFenceFarmSheet, woodFenceFarmSheetBroken1, woodFenceFarmSheetBroken2, whitePicketFenceSheet, decoPicnicTable
-
+
 ADD NEW ITEMS & INCLUDED RECIPES
 ---------------------------------------------------
 In this section we added new items/blocks, which are mostly variations of existing ones, and usually add some functionality to the Player built version.  Also, usually, the Player version is locked behind an appropriate Perk wall, and requires the Trader (non-functioning) version to craft.  Most things in this section can be easily found by typing ‘Home’ into your crafting search bar.
@@ -57,8 +57,6 @@ In this section we added new items/blocks, which are mostly variations of existi
 	
 Here’s a list:  ceilingLight01, ceilingLight02, ceilingLight02Brass, ceilingLight04, ceilingLight05, ceilingLight05Brass, ceilingLight07, ceilingFanLight, wallLight01, sconce1Light, porchLight01, porchLight04, porchLight04Brass, deskLampLight, tableLampLight, endTableLamp, streetLight01, streetLightClassic, industrialLight01, industrialLight02, industrialLight02Red, signShopOpen, signExitLight, workLightPOI
 
-
 ADD WIRELESS ELECTRICAL RELAYS & SWITCHES
 ---------------------------------------------------------------
 In this section we added Wireless (or rather Hidden wires) electrical options.  A ‘Home Wireless Relay Block’ that can be built into structures (and painted if you wish), a ‘Home Wireless Switch Fusebox’ and ‘Home Wireless Switch Electrical Box’ which add those models back in and use them for wireless electrical Switches, and a ‘Home Electrical Pole Top Relay’ for power poles.  Some of this is not perfect, and I’d like to move were the Power Lines come “IN” to some of these, but that looks like its hard baked into the models.  Also we matched the power usage, of the few things that cost zero watts, to the 1W cost of normal relays.
-
