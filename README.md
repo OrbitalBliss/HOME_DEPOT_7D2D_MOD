@@ -1,2 +1,64 @@
-# HOME_DEPOT_7D2D_MOD
-Home Depot mod for 7 Days to Die. Adds many items to Traders decorative items sell lists. Adds many basic crafting recipes (mostly woodworking on the tablesaw). Adds working Appliances - Sinks etc as water sources, Ovens and BBQs as cooking stations. Adds wireless electrical options and items. Tweaks and fixes some anomalies.
+Home Depot Mod -- for 7 Days to Die [Alpha 17.2]
+V1.0 by OrbitalBliss
+
+Welcome to Home Depot where, if you can't buy it, we can help you build it.
+This mod adds many (most) decorative items already in the game to either your crafting lists, or to the Traders items (at least as a rare Hidden Stash).  It also fixes a couple established recipes and Perk walls (and, yes, 'Fixes' is a subjective term).  But I did try to leave most things the way the Devs made them.
+One of the main purposes of this Mod is to give players meaningful access to assets in the game that otherwise are trapped in Creative Mode.
+This mod is item-centric and kept completely within the Configs (aka; It’s a Modlet) so you can drop it on your server and it will deliver to everyone, no fuss no muss.  Your players don’t have to do anything.
+And, yes, a few of the things this mod does have been done several times before... but like Home Depot, the Home Depot mod is meant to be one-stop shopping.  Besides, I kinda wanted to write my own version of those things from the ground up anyhow as I taught myself how to mod.
+I hope this fills out your players gaming experiences.  Have fun!!
+
+ADDED TRADER ITEMS
+------------------------------
+In this section we've added many (if not most) items that exist in game already, but cannot be acquired.  These are added to the Traders decorations lists, with Economic Values and Repair Materials added for those items missing them. Also, slightly boosted the number of Decorative items Traders carry.
+
+Here’s a list: WallOven, UtilitySink, HungSink, MicrowaveOven, RetroFridge, FridgeStainlessSteel, StoveOld, WashingMachine, TrashCompactor, Mirror, ShowerHead, BathTubEmpty, Toilet01, Toilet02, Toilet03, MedicineCabinet A, MedicineCabinet B, PillCase, Radiator, SchoolDesk, ShoppingBasket, LeatherCouchSofa, BarracksChair, Paintings (x6), CharcoalGrillClosed, CharcoalGrillOpen, GasGrillClosed, GasGrillOpen, BirdBathPlanter, Gurney, HospitalBed, FileCabinetShort, FileCabinetTall, LockersTall A, LockersTall B, LockersTall C, HeatVent, HeatVentIndustrial, LaundryBasket, FancyGarbageCan, Dumpster, WaterCoolerBottle, CoolerOpen, SatelliteDish, SatelliteDishSmall, MetalSlide, SwingSet, StationaryBike, Treadmill, WeightBar, BenchPress, Duffle01, WeaponsBagSmall, WeaponsBagLarge, Purse01, Suitcase, LuggageMedium, LuggageBig, Backpack01, Backpack03, AirConditionVentFan, ConditionVentFanDouble, SignRoadStop, SignRoadStop4way, SignRoadSlow, SignRoadPrivate, SignRoadWork, CommercialBlindsTop, CommercialBlindsBottom
+
+ADDED RECIPES
+--------------------
+In this section we added recipes for the handyman.  A number of reasonably simple items (coffee table) and several related items (most of the cabinets) were added a recipes, many of them requiring Tablesaw and some of them requiring Perk levels.
+
+Here’s a list: CommercialDoor1, CommercialDoor2, CommercialDoor4, HouseFrontDoor1, HouseFrontDoor2, DoorFrameWhite1, DoorFrameWhite2, DoorFrameMetal1, DoorFrameMetal2, CupboardsRed(x1), CabinetsRed(x1), CupboardsOld(x3),CabinetsOld(x3), WindowTrim(x5), DoorTrim(x2), WoodCrown(x2), DecorativePillar(x2), StoreShelving (x3), PewSegment(x3), GarageDoorHouse, Window02, Shutters1Plate, HardenedChestSecure, BookcaseEmpty, CoffeeTable, tableDynamic, WoodCatwalkWedge, MetalPillarTable, Coffin, RoadRailing(x4), ChainLink(x8), CorrugatedMetalPillars(x6), ConcreteBarrier
+
+FIXES FOR RECIPES AND PERKS  (of course 'fix' is subjective)
+-----------------------------------------
+We tried to keep this to a minimum, but here we tweaked some existing recipes to (in our opinion) make better sense.
+
+- Existing recipes that should have required tablesaw:
+cntCabinetBottom, cntCupboardCabinetRedTopClosed
+
+- Include Snowberry Seeds Recipe (Locked behind LivingOffTheLand 3), and fixed planted snowberries to grow up into Player harvested Snowberries. 
+
+- Include BloodDrawKit Recipe (Locked behind Physician 3)
+
+- Require GreaseMonkey Perk to craft vehicles (not just for vehicles parts)
+Each vehicle tied to its appropriate GreaseMonkey Perk level.
+- Include Vehicles in Trader Hidden Stash (Starting at Barter 3)
+	They are also originally very expensive. (we did not change this)
+
+
+FIX SOME STRANGE UPGRADES, REPAIRS, & ECONOMIC VALUES
+------------------------------------------------------------------------------------
+A few items already in the game had either screwy economic values, or repair settings.  And a few even have goofy upgrades.  I think most of these were simply overlooked.  We fixed those.
+
+Here’s a list: cntWaterCoolerFull, cntBookcaseFull, woodFenceFarmSheet, woodFenceFarmSheetBroken1, woodFenceFarmSheetBroken2, whitePicketFenceSheet, decoPicnicTable
+
+ADD NEW ITEMS & INCLUDED RECIPES
+---------------------------------------------------
+In this section we added new items/blocks, which are mostly variations of existing ones, and usually add some functionality to the Player built version.  Also, usually, the Player version is locked behind an appropriate Perk wall, and requires the Trader (non-functioning) version to craft.  Most things in this section can be easily found by typing ‘Home’ into your crafting search bar.
+
+- Craftable Beds that can relocate. -- The bedroll was not the only respawn point, but was the only one allowed to be picked up.  This adds player versions of the Mattress, Small Bed, and Large Bed that can also be picked up.  Players still can’t have more than one respawn, just allows them to use the other ‘sleeping bags’ the same way if they so choose.  Mostly this allows you to redecorate your home without having to destroy and rebuild your beds.
+
+- Craftable Ovens that function as Campfires. -- This adds a couple of ovens, microwave, and some BBQ Grills to craft and function just like Campfires.  In the future I hope to tie the Electric oven and Microwave to the Electrical grid (can’t find a way so far).
+
+- Craftable Sinks and Fountains that function as Mirky Water Sources. --  This adds some working plumbing.  It also adds a much more difficult crafting item in the ‘Home Filtered Water Cooler’ which requires Purifiers in its recipe and higher Perk levels, but can provide Clean Water. 
+
+- Craftable Light Sources. -- There’s all kinds of lighting in this game… but they gave us a single fixture to work with.  This has been fixed, adding almost every electrical light source back into the game.  In the future I’d like to fix illumination levels, but this is impossible at the moment.
+	
+Here’s a list:  ceilingLight01, ceilingLight02, ceilingLight02Brass, ceilingLight04, ceilingLight05, ceilingLight05Brass, ceilingLight07, ceilingFanLight, wallLight01, sconce1Light, porchLight01, porchLight04, porchLight04Brass, deskLampLight, tableLampLight, endTableLamp, streetLight01, streetLightClassic, industrialLight01, industrialLight02, industrialLight02Red, signShopOpen, signExitLight, workLightPOI
+
+
+ADD WIRELESS ELECTRICAL RELAYS & SWITCHES
+---------------------------------------------------------------
+In this section we added Wireless (or rather Hidden wires) electrical options.  A ‘Home Wireless Relay Block’ that can be built into structures (and painted if you wish), a ‘Home Wireless Switch Fusebox’ and ‘Home Wireless Switch Electrical Box’ which add those models back in and use them for wireless electrical Switches, and a ‘Home Electrical Pole Top Relay’ for power poles.  Some of this is not perfect, and I’d like to move were the Power Lines come “IN” to some of these, but that looks like its hard baked into the models.  Also we matched the power usage, of the few things that cost zero watts, to the 1W cost of normal relays.
+
