@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Home_Depot" />
+		<Description value="Adds a bunch of miscellaneous items, mostly decorative, to the Traders. Adds a few contruction recipes, mostly tablesaw. Moves or Adds a couple Recipes to Perks." />
+		<Author value="OrbitalBliss" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

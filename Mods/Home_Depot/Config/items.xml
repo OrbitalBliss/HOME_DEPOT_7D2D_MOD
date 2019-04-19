@@ -1,0 +1,112 @@
+<homedepot>
+<!--================================
+	ADD WORKING APPLIANCES
+	================================ -->
+	<!-- New Water Sources Fill Contaniers -->
+	<append xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="Home Utility Sink"/>
+		<property name="Focused_blockname_7" value="Home Wall Sink"/>
+		<property name="Focused_blockname_8" value="Home Cabinet Sink"/>
+		<property name="Focused_blockname_9" value="Home Granite Sink"/>
+		<property name="Focused_blockname_10" value="Home Fountain"/>
+	</append>
+	<append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="Home Utility Sink"/>
+		<property name="Focused_blockname_7" value="Home Wall Sink"/>
+		<property name="Focused_blockname_8" value="Home Cabinet Sink"/>
+		<property name="Focused_blockname_9" value="Home Granite Sink"/>
+		<property name="Focused_blockname_10" value="Home Fountain"/>
+	</append>
+	<append xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']">
+		<property name="Focused_blockname_6" value="Home Utility Sink"/>
+		<property name="Focused_blockname_7" value="Home Wall Sink"/>
+		<property name="Focused_blockname_8" value="Home Cabinet Sink"/>
+		<property name="Focused_blockname_9" value="Home Granite Sink"/>
+		<property name="Focused_blockname_10" value="Home Fountain"/>
+	</append>
+
+	<!-- Home Filtered Water Cooler delivers clean water to Jars and Cans [ON LEFT CLICK] -->
+	<append xpath="/items/item[@name='drinkCanEmpty']">
+		<property class="Action0"> <!-- attack action -->
+			<property name="Class" value="ExchangeItem"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Change_item_to" value="drinkCanBoiledWater"/>
+			<property name="Do_block_action" value="deplete1"/>
+			<property name="Focused_blockname_1" value="Home Filtered Water Cooler"/>
+			<property name="Sound_start" value="bucketfill_water"/>
+		</property>
+	</append>
+
+	<append xpath="/items/item[@name='drinkJarEmpty']">
+		<property class="Action0"> <!-- attack action -->
+			<property name="Class" value="ExchangeItem"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Change_item_to" value="drinkJarBoiledWater"/>
+			<property name="Do_block_action" value="deplete1"/>
+			<property name="Focused_blockname_1" value="Home Filtered Water Cooler"/>
+			<property name="Sound_start" value="bucketfill_water"/>
+		</property>
+		<property name="Group" value="Basics"/>
+	</append>
+
+<!--================================
+	ADD BINOCULARS (having issues with Class Zoom)
+	================================ -->
+<!--
+	<append xpath="/items">
+			
+		<item name="Home Binoculars 2x">
+			<property name="CustomIcon" value="modGunScopeSmall"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="Items/Mods/Scopes/scope_2xPrefab"/>
+			<property name="Material" value="MmechanicalParts"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="144"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_overlay" value="Items/Weapons/HUD/2x_zoom_overlay"/>
+				<property name="Zoom_max_out" value="30"/>
+				<property name="Zoom_max_in" value="30"/>
+			</property>
+			<property name="Group" value="Basics"/>
+		</item>
+			
+		<item name="Home Binoculars 4x">
+			<property name="CustomIcon" value="modGunScopeMedium"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="Items/Mods/Scopes/scope_4xPrefab"/>
+			<property name="Material" value="MmechanicalParts"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="144"/>
+			<property name="CrosshairOnAim" value="false"/>
+ 			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_overlay" value="Items/Weapons/HUD/4x_zoom_overlay"/>
+				<property name="Zoom_max_out" value="30"/>
+				<property name="Zoom_max_in" value="8"/>
+			</property>
+			<property name="Group" value="Basics"/>
+		</item>
+
+		<item name="Home Binoculars 8x">
+			<property name="CustomIcon" value="modGunScopeLarge"/>
+			<property name="HoldType" value="31"/>
+			<property name="Meshfile" value="Items/Mods/Scopes/scope_8xPrefab"/>
+			<property name="Material" value="MmechanicalParts"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="144"/>
+			<property name="CrosshairOnAim" value="false"/>
+ 			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_overlay" value="Items/Weapons/HUD/sniper_zoom_overlay"/>
+				<property name="Zoom_max_out" value="10"/>
+				<property name="Zoom_max_in" value="10"/>
+			</property>
+			<property name="Group" value="Basics"/>
+		</item>
+
+	</append>
+-->
+
+</homedepot>

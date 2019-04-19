@@ -1,0 +1,90 @@
+<homedepot>
+<!--================================
+	MAKE OVENS FUNCTION
+	================================ -->
+
+	<append xpath="/xui/ruleset">
+	
+		<window_group name="workstation_Home Woodstove" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_Home Electric Oven" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_Home Microwave Oven" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_Home Gas Grill Open" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_Home Gas Grill Closed" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+				<window_group name="workstation_Home Charcoal Grill Open" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_Home Charcoal Grill Closed" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingList"/>
+				<window name="craftingInfoPanel"/>
+				<window name="windowCraftingQueue"/>
+				<window name="windowToolsCampfire" />
+				<window name="windowFuel" />
+				<window name="windowOutput" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+		
+<!--================================
+	MAKE WIRELESS TIMERS FUNCTION
+	================================ -->
+
+<!--
+		<window_group name="powertrigger_Home Wireless Timer Electrical Box" controller="XUiC_PowerTriggerWindowGroup">
+			<window name="windowPowerTriggerOptions" />
+			<window name="windowPowerCameraControlPreview" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="timer_Home Wireless Timer Fusebox">
+			<window name="windowTimer"/>
+		</window_group>
+-->
+
+	</append>
+	
+</homedepot>

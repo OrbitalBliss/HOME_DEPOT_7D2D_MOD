@@ -1,0 +1,112 @@
+<homedepot>
+<!--================================
+	OTHER INCLUSIONS AND FIXES FOR RECIPES - (of course 'fix' is subjective)
+	================================ -->
+
+	<!-- Include Snowberry Seeds Recipe (Locked behind LivingOffTheLand 3) -->
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="plantedSnowberry1"/>
+	</append>
+
+	<!-- Include BloodDrawKit Recipe (Locked behind Physician 3) -->
+	<append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="medicalBloodDrawKit"/>
+	</append>
+
+	<!-- Change Vehicles to actually require GreaseMonkey (not just the vehicle parts) -->
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="vehicleBicyclePlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="vehicleMinibikePlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="vehicleMotorcyclePlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="vehicle4x4TruckPlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="vehicleGyrocopterPlaceable"/>
+	</append>
+
+	<!-- Include Home Woodstove & All Home Grill Recipes (Locked behind HammerForge 1) -->
+	<append xpath="/progression/perks/perk[@name='perkHammerForge']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="Home Woodstove,Home Gas Grill Open,Home Gas Grill Closed,Home Charcoal Grill Open,Home Charcoal Grill Closed"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="roadRailing,roadRailingPole,roadRailingEnd,roadRailingEnd2,chainLink,chainLinkFenceBottomPole,chainLinkFenceTop,chainLinkFenceTopPole,chainLinkPole,chainLinkCornerTop,chainLinkCornerBottom,chainLinkFenceTopPole2"/>
+	</append>
+
+	<!-- Include Home Appliances, Sinks, and Lighting Recipes, and Wireless Electrical Recipes (Locked behind AdvancedEngineering 1,2,& 3) -->
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="Home Ceiling Light, Home Ceiling Light 2,Home Ceiling Light 2 Brass,Home Ceiling Light 4,Home Ceiling Light 5,Home Ceiling Light 5 Brass,Home Ceiling Light 7,Home Wall Light,Home Sconce Light,Home Porch Light,Home Porch Light 4,Home Porch Light 4 Brass,Home Desk Lamp,Home Table Lamp,Home End Table w/ Lamp,Home Industrial Light"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="Home Electric Oven,Home Utility Sink,Home Wall Sink,Home Cabinet Sink,Home Granite Sink,Home Fountain,Home Ceiling Fan Light,Home Street Light,Home Street Light Classic,Home Industrial Light 2,Home Industrial Light 2 Red,Home Open Sign,Home Exit Sign"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="Home Microwave Oven,Home Work Light,Home Wireless Relay Block,Home Wireless Switch Fusebox,Home Wireless Switch Electrical Box,Home Electrical Pole Top Relay"/>
+	</append>
+
+	<!-- Include Home Filtered Water Cooler Recipes (Locked behind YeahScience 3) -->
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="Home Filtered Water Cooler"/>
+	</append>
+
+</homedepot>
+
+<!--================================
+	<perk name="perkLivingOffTheLand" parent="skillSurvival" name_key="perkLivingOffTheLandName" desc_key="perkLivingOffTheLandDesc" icon="ui_game_symbol_tree">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="plantedAloe1,plantedBlueberry1,plantedChrysanthemum1,plantedCoffee1,plantedCorn1,plantedCotton1,plantedGoldenrod1,plantedMushroom1,plantedPotato1,plantedYucca1,plantedHop1"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="plantedGraceCorn1"/>
+		</effect_group>
+	</perk>
+
+	<perk name="perkHammerForge" parent="skillCraftsmanship" name_key="perkHammerForgeName" desc_key="perkHammerForgeDesc" icon="ui_game_symbol_forge">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="forge,toolAnvil"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="meleeToolFireaxeIron,meleeToolPickaxeIron,meleeToolHoeIron,meleeToolShovelIron,meleeToolClawHammer,meleeToolSledgehammer,meleeToolHuntingKnife,armorLeatherBoots,armorLeatherGloves,armorLeatherHood,armorLeatherChest,armorLeatherPants"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,armorIronBoots,armorIronChest,armorIronGloves,armorIronHelmet,armorIronLegs"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,meleeToolPickaxeSteel,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolMachete"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="armorMilitaryHelmet,armorMilitaryVest,armorMilitaryGloves,armorMilitaryLegs,armorMilitaryBoots,armorSteelBoots,armorSteelChest,armorSteelGloves,armorSteelHelmet,armorSteelLegs,"/>
+	
+	<perk name="perkGreaseMonkey" parent="skillCraftsmanship" name_key="perkGreaseMonkeyName" desc_key="perkGreaseMonkeyDesc" icon="ui_game_symbol_service">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="vehicleWheels,vehicleBicycleChassis,vehicleBicycleHandlebars"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="vehicleMotorcycleChassis,vehicleMotorcycleHandlebars"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="vehicle4x4TruckChassis,vehicle4x4TruckAccessories"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="vehicleGyroCopterChassis,vehicleGyroCopterAccessories"/>
+
+	<perk name="perkAdvancedEngineering" parent="skillCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
+				tags="workbench,tableSaw,generatorbank,electricwirerelay,switch,ceilingLight01_player,gunCrossbow,gunCompoundBow,armorMiningHelmet"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
+				tags="gunPistol,gunPumpShotgun,gunHuntingRifle,spotlightPlayer,speaker,pressureplate,pressureplateLong,electrictimerrelay,motionsensor,cementMixer,ammoDartSteel,dartTrap"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="tripwirepost,electricfencepost,bladeTrap,gunSMG5,gun44Magnum,gunAK47,gunMR10"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="shotgunTurret,gunRocketLauncher,gunToolNailgun"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="autoTurret,meleeToolAuger,meleeToolChainsaw"/>
+
+	<perk name="perkYeahScience" parent="skillCraftsmanship" name_key="perkYeahScienceName" desc_key="perkYeahScienceDesc" icon="ui_game_symbol_chemistry">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
+				tags="ammoGasCan,drinkJarGrainAlcohol,resourceBulletCasing,resourceBulletTip,resourceBulletCasingSteel,ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,chemistryStation,thrownAmmoPipeBomb,tnt,mineHubcap,mineCookingPot"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
+				tags="modGunMuzzleBrake,modGunFlashlight,modGunScopeSmall,modGunTriggerGroupSemi,modGunBipod,modGunForegrip,modGunDuckbill,modGunChoke,modGunMagazineExtender,modShotgunSawedOffBarrel,modGunMeleeTheHunter,modMeleeSerratedBlade,modMeleeWeightedHead,modMeleeStructuralBrace,modMeleeGraveDigger,modMeleeWoodSplitter"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
+				tags="modArmorCoolingMesh,modArmorInsulatedLiner,modArmorReinforcedPadding,modArmorScrapPlating,modArmorImprovedFittings,modArmorStoragePocket,modArmorHelmetLight"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
+				tags="thrownDynamite,ammo9mmBulletSteel,ammo44MagnumBulletSteel,ammo762mmBulletFMJSteel,ammoShotgunSlug,ammoArrowSteelAP,ammoCrossbowBoltSteelAP,ammoArrowFlaming,mineAirFilter,rScrapIronPlateMine,resourceMilitaryFiber,modMeleeBunkerBuster"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
+				tags="modMeleeClubBurningShaft,modGunSoundSuppressorSilencer,modGunBarrelExtender,modGunLaserSight,modGunScopeMedium,modGunReflexSight,modGunTriggerGroupBurst,modGunRetractingStock,modGunCrippleEm,modMeleeTemperedBlade,modMeleeFortifyingGrip,modMeleeClubBarbedWire,modGunBowArrowRest"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5"
+				tags="modArmorPlasticPlating,modArmorIronPlating,modArmorSpikedKnuckles,modArmorCustomizedFittings,modArmorDoubleStoragePocket,modArmorMuffledConnectors,modArmorImpactBracing,modArmorWaterPurifier"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
+				tags="ammoCrossbowBoltExploding"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
+				tags="modGunScopeLarge,modGunTriggerGroupAutomatic,modGunRodAndSpring,modGunBowPolymerString,modMeleeErgonomicGrip,modMeleeClubMetalSpikes,modMeleeIronBreaker,modArmorBandolier,modGunMeleeRadRemover"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5"
+				tags="modArmorMilitaryPlating,modArmorSteelPlating,modArmorTripleStoragePocket,modArmorAdvancedMuffledConnectors"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
+				tags="resourceRocketTip,resourceRocketCasing,ammoRocketHE,ammoRocketFrag"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
+				tags="batterybank"/>
+
+	<perk name="perkPhysician" parent="skillCraftsmanship" name_key="perkPhysicianName" desc_key="perkPhysicianDesc" icon="ui_game_symbol_medical">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="medicalFirstAidBandage,medicalPlasterCast"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="medicalFirstAidKit,drugSteroids"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="drugRecog"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="drugFortBites"/>
+
+	<perk name="perkMasterChef" parent="skillCraftsmanship" name_key="perkMasterChefName" desc_key="perkMasterChefDesc" icon="ui_game_symbol_spatula">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="foodShamChowder,foodHoboStew,foodFishTacos"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="drinkYuccaJuiceSmoothie,foodChiliDog"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir"/>
+================================ -->

@@ -1,0 +1,106 @@
+<homedepot>
+<!--================================
+	ADD EXISTING ITEMS TO TRADER STOCK LIST
+	================================ -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']">
+		<item name="cntWallOven"/>
+		<item name="utilitySink"/>
+		<item name="wallHungSink"/>
+		<item name="cntMicrowaveOvenVer1Closed"/>
+		<item name="cntRetroFridgeVer1Closed"/>
+		<item name="cntFridgeStainlessSteel"/>
+		<item name="cntStoveOldVer1Closed"/>
+		<item name="cntWashingMachine"/>
+		<item name="cntTrashCompactor"/>
+		<item name="mirror"/>
+		<item name="showerHead"/>
+		<item name="cntBathTubEmpty"/>
+		<item name="cntToilet01"/>
+		<item name="cntToilet02"/>
+		<item name="cntToilet03"/>
+		<item name="cntMedicineCabinetFaucetClosed"/>
+		<item name="cntMedicineCabinetClosed"/>
+		<item name="cntPillCaseClosed"/>
+		<item name="radiatorHouse01"/>
+		<item name="schoolDesk"/>
+		<item name="shoppingBasketEmpty"/>
+		<item name="leatherCouchSofa2"/>
+		<item name="barracksChair"/>
+		<item name="paintingBen"/>
+		<item name="paintingLorien"/>
+		<item name="paintingDerek"/>
+		<item name="paintingNoah"/>
+		<item name="paintingDuke"/>
+		<item name="paintingKen"/>
+		<item name="cntCharcoalGrillClosed"/>
+		<item name="cntCharcoalGrillOpen"/>
+		<item name="cntGasGrillClosed"/>
+		<item name="cntGasGrillOpen"/>
+		<item name="birdBathPlanter"/>
+		<item name="gurneyBed"/>
+		<item name="hospitalBed"/>
+		<item name="cntFileCabinetShortClosed"/>
+		<item name="cntFileCabinetTallClosed"/>
+		<item name="cntLockersTallDoubleClosed"/>
+		<item name="cntLockersTallMixClosed"/>
+		<item name="cntLockersTallMixLinkClosed"/>
+		<item name="heatVent"/>
+		<item name="heatVentIndustrial"/>
+		<item name="cntLaundryBasketVer1Empty"/>
+		<item name="cntFancyGarbageCan"/>
+		<item name="cntDumpster"/>
+		<item name="cntWaterCoolerBottle"/>
+		<item name="cntCoolerOpen"/>
+		<item name="satelliteDish"/>
+		<item name="satelliteDishSmall"/>
+		<item name="decoMetalSlide"/>
+		<item name="decoSwingSet"/>
+		<item name="decoStationaryBike"/>
+		<item name="decoTreadmill"/>
+		<item name="decoWeightBar"/>
+		<item name="decoBenchPress"/>
+		<item name="cntDuffle01"/>
+		<item name="cntWeaponsBagSmall"/>
+		<item name="cntWeaponsBagLarge"/>
+		<item name="cntPurse01"/>
+		<item name="cntSuitcase"/>
+		<item name="cntLuggageMediumClosed"/>
+		<item name="cntLuggageBigClosed"/>
+		<item name="cntBackpack01"/>
+		<item name="cntBackpack03"/>
+		<item name="airConditionVentFan"/>
+		<item name="airConditionVentFanDouble"/>
+		<item name="signRoadStop"/>
+		<item name="signRoadStop4way"/>
+		<item name="signRoadSlow"/>
+		<item name="signRoadPrivate"/>
+		<item name="signRoadWork"/>
+	</append>
+
+	<!-- include commercial blinds in the blinds selection -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+		<item name="commercialBlindsTop" count="4,15"/>
+		<item name="commercialBlindsBottom" count="4,15"/>
+	</append>
+
+	<!-- boost the number of decorative items from "2,7" -->
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
+
+	<!-- Include Vehicles in Trader Secret Stash starting at Barter 3 -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsLow']">
+		<item name="vehicleBicyclePlaceable" prob="0.25"/>
+		<item name="vehicleMinibikePlaceable" prob="0.15"/>
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsHigh']">
+		<item name="vehicleMinibikePlaceable" prob="0.2"/>
+		<item name="vehicleMotorcyclePlaceable" prob="0.15"/>
+		<item name="vehicle4x4TruckPlaceable" prob="0.07"/>
+		<item name="vehicleGyrocopterPlaceable" prob="0.02"/>
+	</append>
+
+	<!-- Pull Sleepable Matress out of Traders (added in recipes) -->
+
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='mattressFlat']"/>
+
+</homedepot>

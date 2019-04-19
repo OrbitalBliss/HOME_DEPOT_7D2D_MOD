@@ -1,0 +1,763 @@
+<homedepot>
+<!--================================
+	ASSIGN ECONOMIC VALUES AND REPAIR MATERIALS TO MOST ITEMS ADDED TO TRADERS
+	TO-DO: Tweak Economic Values, Tweak Probablilities/Groups.
+	================================ -->
+
+	<append xpath="/blocks/block[@name='cntWallOven']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='utilitySink']">
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='wallHungSink']">
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='mirror']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='showerHead']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+			<property name="EconomicValue" value="44"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="1"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntNightstandOpen']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='radiatorHouse01']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='schoolDesk']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='shoppingBasketEmpty']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='leatherCouchSofa2']">
+			<property class="RepairItems"> <property name="resourceLeather" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='barracksChair']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='paintingBen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntCharcoalGrillOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntGasGrillOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='gurneyBed']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntFancyGarbageCan']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntDumpster']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntWaterCoolerBottle']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='satelliteDish']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoStationaryBike']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoTreadmill']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoWeightBar']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntLuggageMediumOpen']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntWeaponsBagSmall']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntSuitcase']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntBackpack01']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='airConditionVentFan']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+
+	<append xpath="/blocks/block[@name='commercialBlindsTop']">
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+
+	<append xpath="/blocks/block[@name='signRoadArrowheadApache']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+
+	<!-- assiging/fixing EconomicValue and Repair Materials of items already included in Traders -->
+	<append xpath="/blocks/block[@name='cntWaterCoolerFull']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntBookcaseFull']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+
+<!--================================
+	FIX SNOWBERRY GROWTH STATE
+	================================ -->
+	<set xpath="/blocks/block[@name='plantedSnowberry2']/property[@name='PlantGrowing.Next']/@value">plantedSnowberry3HarvestPlayer</set>
+
+<!--================================
+	MORE FUNITURE PICK-UPS
+	TO-DO: I'd like to figure out a way to limit this to within Land-Claim
+	TO-DO: Try to find a way for a Take-Delay on Bedroll to work.
+	================================ -->
+	<append xpath="/blocks">
+		<block name="Home Mattress">
+			<property name="CustomIcon" value="mattressFlat"/>
+			<property name="DescriptionKey" value="bedGroupDesc"/>
+			<property name="Class" value="SleepingBag"/>
+			<property name="Material" value="Mfurniture"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Furniture/mattress_flat" param1="main_mesh"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="FallDamage" value=".6"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="5"/>
+				<property name="resourceCotton" value="10"/>
+			</property>
+			<property name="CanPickup" value="true"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="EconomicValue" value="60"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+
+		<block name="Home Small Bed">
+			<property name="Extends" value="Home Mattress"/>
+			<property name="CustomIcon" value="bed01"/>
+			<property name="Model" value="Furniture/bed01" param1="main_mesh"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMetalPipe" value="5"/>
+			</property>
+			<property name="EconomicValue" value="244"/>
+		</block>
+
+		<block name="Home Large Bed">
+			<property name="Extends" value="Home Mattress"/>
+			<property name="CustomIcon" value="bed02"/>
+			<property name="Model" value="Furniture/bed02" param1="main_mesh"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="40"/>
+				<property name="resourceSpring" value="1"/>
+				<property name="resourceWood" value="20"/>
+				<property name="resourceMetalPipe" value="2"/>
+			</property>
+			<property name="EconomicValue" value="2400"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+	</append>
+
+<!--================================
+	ADD CRAFTABLE & WORKING APPLIANCES (CAMPFIRE SUBSTITUTES)
+	TO-DO: Make electric oven and microwave use electricity.
+	?APPLIANCES: Other Appliances?: Fridge??, Washing Machine (slowly repair clothes?), Trash Compactor (actually destroy stuff)?, AirConditioner/Radiator (create Heat/Cooling)
+	================================ -->
+
+	<append xpath="/blocks">
+		
+		<block name="Home Campfire Helper">
+			<property name="CreativeMode" value="None"/>
+			<property name="Class" value="Campfire"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Texture" value="191"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="HeatMapStrength" value="1.5"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="4"/>
+				<property name="resourceElectricParts" value="4"/>
+			</property>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="DescriptionKey" value="campfireDesc"/>
+		</block>
+
+		<block name="Home Woodstove">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntStoveOldVer1Closed"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="444"/>
+		</block>
+
+		<block name="Home Electric Oven">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntWallOven"/>
+			<property name="Texture" value="346,191,341,191,191,191"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="1444"/>
+		</block>
+
+		<block name="Home Microwave Oven">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntMicrowaveOvenVer1Closed"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="Ext3dModel"/>
+			<property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+			<property name="Place" value="TowardsPlacer90"/>
+			<property name="EconomicValue" value="444"/>
+		</block>
+
+		<block name="Home Gas Grill Open">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntGasGrillOpen"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/LootContainers/GasGrill_EmptyPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="244"/>
+		</block>
+		<block name="Home Gas Grill Closed">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntGasGrillClosed"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/LootContainers/GasGrill_FullPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="244"/>
+		</block>
+		<block name="Home Charcoal Grill Open">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntCharcoalGrillOpen"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/LootContainers/Grill_Simple_EmptyPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacer90"/>
+			<property name="EconomicValue" value="244"/>
+		</block>
+		<block name="Home Charcoal Grill Closed">
+			<property name="Extends" value="Home Campfire Helper"/>
+			<property name="CustomIcon" value="cntCharcoalGrillClosed"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/LootContainers/Grill_Simple_ClosedPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacer90"/>
+			<property name="EconomicValue" value="244"/>
+		</block>
+
+
+<!--================================
+	ADD CRAFTABLE & WORKING WATER SOURCES
+	TO-DO: Tweak Light Illumination Strengths. Reduce Wattage on some Lights, increased on others?
+	TO-DO: Try to get these to pickup properly within Land-Claim. (for now, pickup on destroy)
+	?APPLIANCES: Other Water Sources: Probably NOT Faucets/Toilets/Tubs/Fridge/WashingMachine.
+	================================ -->
+	
+		<block name="Home Watersource Helper">
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property class="RepairItems">
+				<property name="resourceMetalPipe" value="1"/>
+				<property name="resourceScrapIron" value="4"/>
+			</property>
+			<property name="DescriptionKey" value="drinkJarRiverWaterDesc"/>
+			<property name="FilterTags" value="ffurniture,fdecor,fother"/>
+		</block>
+	
+		<block name="Home Utility Sink">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="utilitySink"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plumbing/utility_sinkPrefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="EconomicValue" value="144"/>
+			<drop event="Destroy" name="Home Utility Sink" count="1" prob="1"/>
+		</block>
+		<block name="Home Wall Sink">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="wallHungSink"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plumbing/wall_hung_sinkPrefab"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="EconomicValue" value="144"/>
+			<drop event="Destroy" name="Home Wall Sink" count="1" prob="1"/>
+		</block>
+		<block name="Home Cabinet Sink">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="cntCabinetOldSink"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="counter_sink"/>
+			<property name="Texture" value="374,78,79,84,84,84"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="8"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+			<property name="EconomicValue" value="144"/>
+			<drop event="Destroy" name="Home Cabinet Sink" count="1" prob="1"/>
+		</block>
+		<block name="Home Granite Sink">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="cntGraniteSink"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="counter_sink"/>
+			<property name="Texture" value="373,261,262,345,345,345"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="8"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+			<property name="EconomicValue" value="144"/>
+			<drop event="Destroy" name="Home Granite Sink" count="1" prob="1"/>
+		</block>
+		<block name="Home Fountain">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="fountain"/>
+			<property name="Shape" value="Ext3dModel"/>
+			<property name="Texture" value="282"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Plumbing/fountain" param1="main_mesh"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="EconomicValue" value="144"/>
+			<drop event="Destroy" name="Home Fountain" count="1" prob="1"/>
+		</block>
+
+<!-- And a CLEAN water source -->
+		<block name="Home Filtered Water Cooler">
+			<property name="Extends" value="Home Watersource Helper"/>
+			<property name="CustomIcon" value="cntWaterCoolerFull"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/LootContainers/water_cooler_fullPrefab" />
+			<property name="StabilitySupport" value="false"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="8"/>
+			<property name="EconomicValue" value="4444"/>
+			<drop event="Destroy" name="Home Filtered Water Cooler" count="1" prob="1"/>
+			<property name="DescriptionKey" value="drinkJarBoiledWaterDesc"/>
+		</block>
+
+<!--================================
+	ADD CRAFTABLE & WORKING LIGHT SOURCES
+	================================ -->
+	<!-- The unused 'player_ceilingLight07Prefab' made me think there might be more.
+		So, I Dug These Out Of The Assets File. Unfortunately they are basically the same:
+		player_ceilingLight02Prefab
+		player_wall_light01Prefab
+		player_porchLight01Prefab
+		player_industrialLight01Prefab
+		industrial_light_02_hangPrefab  - This guys is new, but buggy so can't use him yet.
+	-->
+
+		<block name="Home Ceiling Light">
+			<property name="CustomIcon" value="ceilingLight01"/>
+			<property name="Class" value="PoweredLight"/>
+			<property name="Light" value="1"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mmetal_thin"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/> <!-- replaces ceilingLight01Prefab -->
+			<property name="HandleFace" value="Top"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="Group" value="Science"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="1"/>
+				<property name="resourceElectricParts" value="3"/>
+			</property>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="EconomicValue" value="44"/>
+		</block>
+
+		<block name="Home Ceiling Light 2">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight02"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/>
+		</block>
+
+		<block name="Home Ceiling Light 2 Brass">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight02Brass"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+		</block>
+
+		<block name="Home Ceiling Light 4">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight04"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+		</block>
+
+		<block name="Home Ceiling Light 5">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight05"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+		</block>
+
+		<block name="Home Ceiling Light 5 Brass">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight05Brass"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+		</block>
+
+		<block name="Home Ceiling Light 7">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingLight07"/>
+			<property name="Model" value="Entities/Lighting/player_ceilingLight07Prefab"/> <!-- replaces ceilingLight07Prefab much brighter -->
+		</block>
+
+		<block name="Home Ceiling Fan Light">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="ceilingFanLight"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Lighting/ceiling_fanPrefab"/>
+		</block>
+
+		<block name="Home Wall Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="wallLight01"/>
+			<property name="Model" value="Entities/Lighting/wall_light01Prefab"/>
+			<property name="HandleFace" value="South"/>
+		</block>
+
+		<block name="Home Sconce Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="sconce1Light"/>
+			<property name="Model" value="Entities/Lighting/sconce_1_Prefab"/>
+			<property name="HandleFace" value="West"/>
+		</block>
+
+		<block name="Home Porch Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+			<property name="HandleFace" value="West"/>
+		</block>
+
+		<block name="Home Porch Light 4">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="porchLight04"/>
+			<property name="Model" value="Entities/Lighting/porchLight04Prefab"/>
+			<property name="HandleFace" value="West"/>
+		</block>
+
+		<block name="Home Porch Light 4 Brass">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="porchLight04Brass"/>
+			<property name="Model" value="Entities/Lighting/porchLight04BrassPrefab"/>
+			<property name="HandleFace" value="West"/>
+		</block>
+
+		<block name="Home Desk Lamp">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="deskLampLight"/>
+			<property name="Model" value="Entities/Lighting/desk_lampPrefab"/>
+		</block>
+
+		<block name="Home Table Lamp">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="tableLampLight"/>
+			<property name="Model" value="Entities/Lighting/table_lampPrefab"/>
+		</block>
+
+		<block name="Home End Table w/ Lamp">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="endTableLamp"/>
+			<property name="Model" value="Entities/Lighting/end_table_lightPrefab"/>
+			<property name="Path" value="solid"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		</block>
+
+		<block name="Home Street Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="streetLight01"/>
+			<property name="ImposterExchange" value="streetLightImposter"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/street_light01Prefab"/>
+			<property name="RequiredPower" value="8"/>
+			<property name="OnlySimpleRotations" value="true"/>
+		</block>
+
+		<block name="Home Street Light Classic">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="streetLightClassic"/>
+			<property name="Model" value="Entities/Lighting/streetLamp_ClassicPrefab"/>
+			<property name="RequiredPower" value="8"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,5,1"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRPole" param1="169"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="Home Industrial Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="industrialLight01"/>
+			<property name="Model" value="Entities/Lighting/industrialLight01Prefab"/>
+			<property name="HandleFace" value="South"/>
+		</block>
+
+		<block name="Home Industrial Light 2">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="industrialLight02"/>
+			<property name="Model" value="Entities/Lighting/industrial_light_02Prefab"/>
+		</block>
+
+		<block name="Home Industrial Light 2 Red">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="industrialLight02Red"/>
+			<property name="Model" value="Entities/Lighting/industrial_light_02_redPrefab"/>
+		</block>
+
+		<block name="Home Open Sign">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="signShopOpenSwitch"/>
+			<property name="Model" value="Entities/Signs/sign_open_Prefab"/>
+			<property name="HandleFace" value="South"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="RequiredPower" value="2"/>
+		</block>
+
+		<block name="Home Exit Sign">
+			<property name="Extends" value="Home Ceiling Light"/>
+			<property name="CustomIcon" value="signExitLight"/>
+			<property name="Model" value="Entities/Lighting/exit_signPrefab"/>
+			<property name="RequiredPower" value="2"/>
+		</block>
+
+		<block name="Home Work Light">
+			<property name="Extends" value="Home Ceiling Light" param1="HandleFace"/>
+			<property name="CustomIcon" value="workLightPOI"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Model" value="Entities/Lighting/work_lightPrefab"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+		</block>
+
+	</append>
+
+<!-- LIGHT SOURCES WE'RE NOT IMPLEMENTING (yet anyway)
+			sconce1LightShadow, lanternDecorLight, flashlightDecor, tableLampTippedOverLight, burningBarrel, xRayDisplayLight1, xRayDisplayLight2, roadBarricadeLight
+			wallTorchLight, wallTorchLightPlayer, candleWallLight, candleTableLight, candleWallLightPlayer, candleTableLightPlayer
+			spotlightNailedDownPOI, spotlightPlayer, emberPileLightPOI1, emberPileLightPOI2
+		-->
+
+<!--================================
+	ADD WIRELESS ELECTRICAL RELAYS
+	TO-DO: Add Wireless Timers as well. (have to figure out the Timer menu for this)
+	TO-DO: Add Wireless Versions of normal Switch and Timer. (figure out how to get the Out-Lines to go invisible)
+	TO-DO: Fix location of visible line-in on Fuseboxes.
+	TO-DO: Make Out-Line on Pole Top Relay Visible.
+	================================ -->
+
+	<!-- Fix Switches & Timers costing less power than Relays. -->
+	<set xpath="/blocks/block[@name='switch']/property[@name='RequiredPower']/@value">1</set>
+	<set xpath="/blocks/block[@name='electrictimerrelay']/property[@name='RequiredPower']/@value">1</set>
+	<set xpath="/blocks/block[@name='pressureplate']/property[@name='RequiredPower']/@value">1</set>
+	<set xpath="/blocks/block[@name='pressureplateLong']/property[@name='RequiredPower']/@value">1</set>
+
+	<append xpath="/blocks">
+
+		<block name="Home Wireless Relay Block">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="controlPanelTop02"/> <property name="CustomIconTint" value="#e69500"/>
+			<property name="Class" value="Powered"/>
+			<property name="Texture" value="519,519,519,519,519,519"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="1000"/>
+			<property class="RepairItems"> <property name="resourceElectricParts" value="2"/> </property>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="RequiredPower" value="1"/>
+			<property name="Group" value="Science"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="EconomicValue" value="44"/>
+			<property name="DescriptionKey" value="electricwirerelayDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+		</block>
+
+		<!--
+		<block name="Home Wireless Switch">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="switch"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Entities/Electrical/power_switchPrefab"/> <property name="HandleFace" value="South"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Class" value="Switch"/>
+			<property name="TriggerType" value="Switch"/>
+		</block>
+
+		<block name="Home Wireless Timer">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="electrictimerrelay"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Entities/Electrical/relay_timerPrefab"/> <property name="HandleFace" value="Bottom"/>
+			<property name="Class" value="TimerRelay"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="ImposterDontBlock" value="true"/>
+		</block>
+		-->
+		
+		<block name="Home Wireless Switch Fusebox">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="fusebox"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/> <property name="HandleFace" value="South"/>
+			<property name="Class" value="Switch"/>
+			<property name="TriggerType" value="Switch"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="DescriptionKey" value="switchDesc"/>
+		</block>
+
+		<block name="Home Wireless Switch Electrical Box">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="electricalBox01"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/electrical_box01" param1="main_mesh"/> <property name="HandleFace" value="Bottom"/>
+			<property name="Class" value="Switch"/>
+			<property name="TriggerType" value="Switch"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="DescriptionKey" value="switchDesc"/>
+		</block>
+
+		<!--
+		<block name="Home Wireless Timer Fusebox">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="fusebox"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/> <property name="HandleFace" value="South"/>
+			<property name="Class" value="TimerRelay"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="ImposterDontBlock" value="true"/>
+		</block>
+
+		<block name="Home Wireless Timer Electrical Box">
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="electricalBox01"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/electrical_box01" param1="main_mesh"/> <property name="HandleFace" value="Bottom"/>
+			<property name="Class" value="TimerRelay"/>
+			<property name="StabilitySupport" value="false"/>
+		</block>
+		-->
+		
+		<block name="Home Electrical Pole Top Relay">
+		<!-- WORKS?, BUT OUTGOING WIRE IS INVISIBLE -->
+			<property name="Extends" value="Home Wireless Relay Block"/>
+			<property name="CustomIcon" value="poleTop01"/>
+			<property name="Class" value="Powered"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/pole_top01" param1="main_mesh"/>
+			<property name="StabilitySupport" value="false"/>
+		</block>
+
+	</append>
+
+<!--================================
+	FIX SOME STRANGE (overlooked?) UPGRADES & REPAIRS
+	================================ -->
+
+	<append xpath="/blocks/block[@name='woodFenceFarmSheet']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken1']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken2']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='whitePicketFenceSheet']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="wroughtIronFenceSheet"/>
+			<property name="Item" value="resourceScrapIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+	<append xpath="/blocks/block[@name='decoPicnicTable']">
+		<property class="RepairItems">
+			<property name="resourceWood" value="8"/>
+		</property>
+	</append>
+
+</homedepot>
