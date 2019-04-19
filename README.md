@@ -52,12 +52,16 @@ In this section we added new items/blocks, which are mostly variations of existi
 
 - Craftable Ovens that function as Campfires. -- This adds a couple of ovens, microwave, and some BBQ Grills to craft and function just like Campfires.  In the future I hope to tie the Electric oven and Microwave to the Electrical grid (can’t find a way so far).
 
-- Craftable Sinks and Fountains that function as Mirky Water Sources. --  This adds some working plumbing.  It also adds a much more difficult crafting item in the ‘Home Filtered Water Cooler’ which requires Purifiers in its recipe and higher Perk levels, but can provide Clean Water. 
+- Craftable Sinks and Fountains that function as Murky Water Sources. --  This adds some working plumbing.  It also adds a much more difficult crafting item in the ‘Home Filtered Water Cooler’ which requires Purifiers in its recipe and higher Perk levels, but can provide Clean Water. 
 
-- Craftable Light Sources. -- There’s all kinds of lighting in this game… but they gave us a single fixture to work with.  This has been fixed, adding almost every electrical light source back into the game.  In the future I’d like to fix illumination levels, but this is impossible at the moment.
+- Craftable Light Sources. -- There's all kinds of lighting in this game… but they gave us a single fixture to work with.  This has been fixed, adding almost every electrical light source back into the game.  In the future I’d like to fix illumination levels, but this is impossible at the moment.
 	
 Here’s a list:  ceilingLight01, ceilingLight02, ceilingLight02Brass, ceilingLight04, ceilingLight05, ceilingLight05Brass, ceilingLight07, ceilingFanLight, wallLight01, sconce1Light, porchLight01, porchLight04, porchLight04Brass, deskLampLight, tableLampLight, endTableLamp, streetLight01, streetLightClassic, industrialLight01, industrialLight02, industrialLight02Red, signShopOpen, signExitLight, workLightPOI
 
 ADD WIRELESS ELECTRICAL RELAYS & SWITCHES
 ---------------------------------------------------------------
-In this section we added Wireless (or rather Hidden wires) electrical options.  A ‘Home Wireless Relay Block’ that can be built into structures (and painted if you wish), a ‘Home Wireless Switch Fusebox’ and ‘Home Wireless Switch Electrical Box’ which add those models back in and use them for wireless electrical Switches, and a ‘Home Electrical Pole Top Relay’ for power poles.  Some of this is not perfect, and I’d like to move were the Power Lines come “IN” to some of these, but that looks like its hard baked into the models.  Also we matched the power usage, of the few things that cost zero watts, to the 1W cost of normal relays.
+In this section we added Wireless (or rather Hidden wires) electrical options.  A ‘Home Wireless Relay Block’ that can be built into structures (and painted if you wish), a ‘Home Wireless Switch Fusebox’ and ‘Home Wireless Switch Electrical Box’ which add those models back in and use them for wireless electrical Switches, and a ‘Home Electrical Pole Top Relay’ for power poles.  Some of this is not perfect, and I'd like to move were the Power Lines come “IN” to some of these, but that looks like it's hard baked into the models.  Also we matched the power usage, of the few things that cost zero watts, to the 1W cost of normal relays.
+
+HOW TO INSTALL
+--------------------------
+Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  Decompress this directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.  Type 'Home' into your crafting search bar to see most of the things added.
