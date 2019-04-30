@@ -2,9 +2,9 @@ Home Depot Mod -- for 7 Days to Die [Alpha 17.2]
 ------------------------------------------------
 V1.0 by OrbitalBliss
 
-Welcome to Home Depot where, if you can't buy it, we can help you build it.
-This mod adds many (most) decorative items already in the game to either your crafting lists, or to the Traders items (at least as a rare Hidden Stash).  It also fixes a couple established recipes and Perk walls (and, yes, 'Fixes' is a subjective term).  But I did try to leave most things the way the Devs made them.
-One of the main purposes of this Mod is to give players meaningful access to assets in the game that otherwise are trapped in Creative Mode.
+Welcome to Home Depot where, if you can't buy it, we can help you build it.  
+This mod adds many (most) decorative items already in the game to either your crafting lists, or to the Traders items (at least as a rare Hidden Stash).  It also fixes a couple established recipes and Perk walls (and, yes, 'Fixes' is a subjective term).  But I did try to leave most things the way the Devs made them.  
+One of the main purposes of this Mod is to give players meaningful access to assets in the game that otherwise are trapped in Creative Mode.  
 This mod is item-centric and kept completely within the Configs (aka; It’s a Modlet) so you can drop it on your server and it will deliver to everyone, no fuss no muss.  Your players don’t have to do anything.
 And, yes, a few of the things this mod does have been done several times before... but like Home Depot, the Home Depot mod is meant to be one-stop shopping.  Besides, I kinda wanted to write my own version of those things from the ground up anyhow as I taught myself how to mod.
 I hope this fills out your players gaming experiences.  Have fun!!
