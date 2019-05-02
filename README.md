@@ -1,6 +1,6 @@
 Home Depot Mod -- for 7 Days to Die [Alpha 17.2]
 ------------------------------------------------
-V1.0 by OrbitalBliss
+V1.1 by OrbitalBliss
 
 Welcome to Home Depot where, if you can't buy it, we can help you build it.  
 This mod adds many (most) decorative items already in the game to either your crafting lists, or to the Traders items (at least as a rare Hidden Stash).  It also fixes a couple established recipes and Perk walls (and, yes, 'Fixes' is a subjective term).  But I did try to leave most things the way the Devs made them.  
@@ -65,3 +65,16 @@ In this section we added Wireless (or rather Hidden wires) electrical options.  
 HOW TO INSTALL
 --------------------------
 Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  Decompress this directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.  Type 'Home' into your crafting search bar to see most of the things added.
+
+VERSION HISTORY
+--------------------------
+Added in v1.1:
+- To Traders: graveStone03, tire, tv, large tv.
+metalPipe (Corner,Joint,Cap,&Flange), softDucts(Corners,Centered,etc).
+
+- To Recipes: woodWallStud, woodFloorJoist, woodPillar50, woodCNRRound, woodCNRRoundTop,
+cntCardboardBox, cntLootChestHero.
+
+- To Blocks: For woodPillar50, woodCNRRound, and woodCNRRoundTop the reinforced wooden & metalwood versions needed to be created so they could upgrade through those versions.
+	
+- Reduced economic value of Vehicles (so they cost less than 350,000 dukes.)
