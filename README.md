@@ -66,6 +66,18 @@ HOW TO INSTALL
 --------------------------
 Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  Decompress this directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.  Type 'Home' into your crafting search bar to see most of the things added.
 
+GOALS & OBSTACLES
+--------------------------
+These are the things I'd like to work out for the mod. [What the issues are]
+
+- Better illuminations levels on light fixtures. [These seem hard baked into the models]
+- Wireless items with better visible 'Line-In'. [These seem hard baked into the models]
+- Wireless Timers. [Might be possible, I just haven't figured it out yet]
+- Working Electric Oven and Microwave to need Electricity.  [Seems a block can't be both a Workstation and Powered]
+	- I'd also consider requiring Electricity on Tablesaw and Mixer if it were possible.
+- ‘Home Filtered Water Cooler’ to fill on Right Click, like Mirky water sources. [Might be possible, I haven't figured it out]
+- Limit most Home furnishings to be easily moveable within 'Land Claim'. [Might be possible, I haven't figured it out]
+
 VERSION HISTORY
 --------------------------
 Added in v1.1:
