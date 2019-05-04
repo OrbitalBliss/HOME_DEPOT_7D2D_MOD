@@ -60,7 +60,7 @@
 			<ingredient name="resourceForgedIron" count="10"/>
 		</recipe>
 
-		<recipe name="cntCardboardBox" count="1" craft_area="workbench">
+		<recipe name="cntCardboardBox" count="1">
 			<ingredient name="resourcePaper" count="20"/>
 		</recipe>
 
