@@ -62,6 +62,7 @@
 
 		<recipe name="cntCardboardBox" count="1">
 			<ingredient name="resourcePaper" count="20"/>
+			<ingredient name="resourceGlue" count="2"/>
 		</recipe>
 
 		<recipe name="cntCoffin" count="1" craft_area="tablesaw">
