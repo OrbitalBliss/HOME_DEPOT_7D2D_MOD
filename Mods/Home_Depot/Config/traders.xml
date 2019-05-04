@@ -2,7 +2,51 @@
 <!--================================
 	ADD EXISTING ITEMS TO TRADER STOCK LIST
 	================================ -->
+
+	<!-- include commercial blinds in the blinds selection -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+		<item name="commercialBlindsTop" count="4,15"/>
+		<item name="commercialBlindsBottom" count="4,15"/>
+	</append>
+
+	<!-- include large pipes in a new decorative group -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeStraight']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeValve']"/>
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+		<trader_item_group name="decorativePipes" count="all">
+			<item name="metalPipeStraight" count="4,8"/>
+			<item name="metalPipeValve" count="2,3"/>
+			<item name="metalPipeCorner" count="2,4"/>
+			<item name="metalPipeJoint" count="2,4"/>
+			<item name="metalPipeCap" count="1,2"/>
+			<item name="metalPipeFlange" count="1,2"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<!-- include soft ducts in a new decorative group -->
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+		<trader_item_group name="decorativeDucts" count="all">
+			<item name="ductSoft" count="6,10"/>
+			<item name="ductSoftCorner" count="3,5"/>
+			<item name="ductSoftCorner2" count="3,5"/>
+			<item name="ductControlPanel" count="3,5"/>
+			<item name="ductControlPanelCorner" count="2,3"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<!-- include large tv in a new decorative group -->
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+		<trader_item_group name="decorativeLargeTV" count="all">
+			<item name="tv_large_1" count="1"/>
+			<item name="tv_large_2" count="1"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<!-- The bug list of added decorative items -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']">
+		<item group="decorativePipes"/>
+		<item group="decorativeDucts"/>
+		<item group="decorativeLargeTV"/>
 		<item name="cntWallOven"/>
 		<item name="utilitySink"/>
 		<item name="wallHungSink"/>
@@ -22,6 +66,7 @@
 		<item name="cntMedicineCabinetClosed"/>
 		<item name="cntPillCaseClosed"/>
 		<item name="radiatorHouse01"/>
+		<item name="tv"/>
 		<item name="schoolDesk"/>
 		<item name="shoppingBasketEmpty"/>
 		<item name="leatherCouchSofa2"/>
@@ -49,10 +94,12 @@
 		<item name="cntLaundryBasketVer1Empty"/>
 		<item name="cntFancyGarbageCan"/>
 		<item name="cntDumpster"/>
+		<item name="tire"/>
 		<item name="cntWaterCoolerBottle"/>
 		<item name="cntCoolerOpen"/>
 		<item name="satelliteDish"/>
 		<item name="satelliteDishSmall"/>
+		<item name="graveStone03"/>
 		<item name="decoMetalSlide"/>
 		<item name="decoSwingSet"/>
 		<item name="decoStationaryBike"/>
@@ -77,18 +124,12 @@
 		<item name="signRoadWork"/>
 	</append>
 
-	<!-- include commercial blinds in the blinds selection -->
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
-		<item name="commercialBlindsTop" count="4,15"/>
-		<item name="commercialBlindsBottom" count="4,15"/>
-	</append>
-
 	<!-- boost the number of decorative items from "2,7" -->
 	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
 
 	<!-- Include Vehicles in Trader Secret Stash starting at Barter 3 -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsLow']">
-		<item name="vehicleBicyclePlaceable" prob="0.25"/>
+		<item name="vehicleBicyclePlaceable" prob="0.35"/>
 		<item name="vehicleMinibikePlaceable" prob="0.15"/>
 	</append>
 
@@ -100,7 +141,6 @@
 	</append>
 
 	<!-- Pull Sleepable Matress out of Traders (added in recipes) -->
-
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='mattressFlat']"/>
 
 </homedepot>

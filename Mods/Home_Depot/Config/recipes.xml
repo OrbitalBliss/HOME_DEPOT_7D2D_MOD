@@ -56,6 +56,19 @@
 			<ingredient name="resourceForgedIron" count="10"/>
 		</recipe>
 
+		<recipe name="cntLootChestHero" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+
+		<recipe name="cntCardboardBox" count="1" craft_area="workbench">
+			<ingredient name="resourcePaper" count="20"/>
+		</recipe>
+
+		<recipe name="cntCoffin" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>
+
 		<recipe name="pew_segment01" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
@@ -127,6 +140,13 @@
 			<ingredient name="cntCupboardCabinetOldTopClosed" count="1"/>
 		</recipe>
 
+		<recipe name="woodWallStud" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="8"/>
+		</recipe>
+		<recipe name="woodFloorJoist" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="8"/>
+		</recipe>
+
 		<recipe name="woodCrown" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
@@ -163,11 +183,6 @@
 		<recipe name="decoPillarSquareCentered" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
-		</recipe>
-
-		<recipe name="cntCoffin" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="20"/>
-			<ingredient name="resourceNail" count="10"/>
 		</recipe>
 
 		<recipe name="roadRailing" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" tags="learnable">
@@ -247,6 +262,19 @@
 
 		<recipe name="concreteBarrier2" count="1" craft_area="cementMixer">
 			<ingredient name="resourceConcreteMix" count="40"/>
+		</recipe>
+
+	<!-- Add recipe for woodPillar50 & woodCNRRound & woodCNRRoundTop which will upgrade through the new reinforced & and woodMetalreinforced versions -->
+
+		<recipe name="woodPillar50" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodCNRRound" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="20"/>
+		</recipe>
+		<recipe name="woodCNRRoundTop" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="20"/>
 		</recipe>
 
 	</append>

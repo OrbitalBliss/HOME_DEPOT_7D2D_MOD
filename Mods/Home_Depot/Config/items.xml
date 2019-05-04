@@ -2,7 +2,7 @@
 <!--================================
 	ADD WORKING APPLIANCES
 	================================ -->
-	<!-- New Water Sources Fill Contaniers -->
+	<!-- New Water Sources Fill Containers -->
 	<append xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']">
 		<property name="Focused_blockname_6" value="Home Utility Sink"/>
 		<property name="Focused_blockname_7" value="Home Wall Sink"/>
@@ -48,6 +48,15 @@
 		</property>
 		<property name="Group" value="Basics"/>
 	</append>
+
+<!--================================
+	FIX ECONOMIC VALUE OF VEHICLES
+	================================ -->
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='EconomicValue']/@value">200</set> <!-- from 800 -->
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue']/@value">1700</set> <!-- from 6000 -->
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/property[@name='EconomicValue']/@value">3000</set> <!-- from 10000 -->
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='EconomicValue']/@value">10000</set> <!-- from 30000 -->
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='EconomicValue']/@value">18000</set> <!-- from 50000 -->
 
 <!--================================
 	ADD BINOCULARS (having issues with Class Zoom)
