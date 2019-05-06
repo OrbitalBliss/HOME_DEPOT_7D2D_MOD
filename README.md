@@ -36,8 +36,7 @@ cntCabinetBottom, cntCupboardCabinetRedTopClosed
 
 - Require GreaseMonkey Perk to craft vehicles (not just for vehicles parts)  
    Each vehicle tied to its appropriate GreaseMonkey Perk level.
-- Include Vehicles in Trader Hidden Stash (Starting at Barter 3)  
-	They are also originally very expensive. (we did not change this)
+- Include Vehicles in Trader Hidden Stash (Starting at Barter 3)
 
 
 FIX SOME STRANGE UPGRADES, REPAIRS, & ECONOMIC VALUES
