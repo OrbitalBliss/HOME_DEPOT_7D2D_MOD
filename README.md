@@ -1,6 +1,6 @@
-Home Depot Mod -- for 7 Days to Die [Alpha 17.2]
+Home Depot Mod -- for 7 Days to Die [Alpha 17.3]
 ------------------------------------------------
-V1.1 by OrbitalBliss
+V1.2 by OrbitalBliss
 
 <img src="Screenshots/20190418045604_1.jpg" width="600" >
 
@@ -13,15 +13,15 @@ I hope this fills out your players gaming experiences.  Have fun!!
 
 ADDED TRADER ITEMS
 ------------------------------
-In this section we've added many (if not most) items that exist in game already, but cannot be acquired.  These are added to the Traders decorations lists, with Economic Values and Repair Materials added for those items missing them. Also, slightly boosted the number of Decorative items Traders carry.
+In this section we've added many (if not most) items that exist in game already, but cannot be acquired.  These are added to the Traders decorations lists, with Economic Values and Repair Materials added for those items missing them. Also, slightly boosted the number of Decorative items Traders carry, and the number of items the Trader swaps each refresh.
 
-Here’s a list: WallOven, UtilitySink, HungSink, MicrowaveOven, RetroFridge, FridgeStainlessSteel, StoveOld, WashingMachine, TrashCompactor, Mirror, ShowerHead, BathTubEmpty, Toilet01, Toilet02, Toilet03, MedicineCabinet A, MedicineCabinet B, PillCase, Radiator, SchoolDesk, ShoppingBasket, LeatherCouchSofa, BarracksChair, Paintings (x6), CharcoalGrillClosed, CharcoalGrillOpen, GasGrillClosed, GasGrillOpen, BirdBathPlanter, Gurney, HospitalBed, FileCabinetShort, FileCabinetTall, LockersTall A, LockersTall B, LockersTall C, HeatVent, HeatVentIndustrial, LaundryBasket, FancyGarbageCan, Dumpster, WaterCoolerBottle, CoolerOpen, SatelliteDish, SatelliteDishSmall, MetalSlide, SwingSet, StationaryBike, Treadmill, WeightBar, BenchPress, Duffle01, WeaponsBagSmall, WeaponsBagLarge, Purse01, Suitcase, LuggageMedium, LuggageBig, Backpack01, Backpack03, AirConditionVentFan, ConditionVentFanDouble, SignRoadStop, SignRoadStop4way, SignRoadSlow, SignRoadPrivate, SignRoadWork, CommercialBlindsTop, CommercialBlindsBottom
+Here’s a list: WallOven, UtilitySink, HungSink, MicrowaveOven, RetroFridge, FridgeStainlessSteel, StoveOld, WashingMachine, TrashCompactor, Mirror, ShowerHead, BathTubEmpty, Toilet01, Toilet02, Toilet03, MedicineCabinet A, MedicineCabinet B, PillCase, Radiator, SchoolDesk, ShoppingBasket, LeatherCouchSofa, BarracksChair, Paintings (x6), CharcoalGrillClosed, CharcoalGrillOpen, GasGrillClosed, GasGrillOpen, BirdBathPlanter, Gurney, HospitalBed, FileCabinetShort, FileCabinetTall, Lockers(x5), HeatVent, HeatVentIndustrial, LaundryBasket, FancyGarbageCan, Dumpster, WaterCoolerBottle, CoolerOpen, SatelliteDish, SatelliteDishSmall, MetalSlide, SwingSet, StationaryBike, Treadmill, WeightBar, BenchPress, Duffle01, WeaponsBagSmall, WeaponsBagLarge, Purse01, Suitcase, LuggageMedium, LuggageBig, Backpack01, Backpack03, AirConditionVentFan, ConditionVentFanDouble, SignRoadStop, SignRoadStop4way, SignRoadSlow, SignRoadPrivate, SignRoadWork, CommercialBlindsTop, CommercialBlindsBottom, ControlPanels(x15)
 
 ADDED RECIPES
 --------------------
 In this section we added recipes for the handyman.  A number of reasonably simple items (coffee table) and several related items (most of the cabinets) were added a recipes, many of them requiring Tablesaw and some of them requiring Perk levels.
 
-Here’s a list: CommercialDoor1, CommercialDoor2, CommercialDoor4, HouseFrontDoor1, HouseFrontDoor2, DoorFrameWhite1, DoorFrameWhite2, DoorFrameMetal1, DoorFrameMetal2, CupboardsRed(x1), CabinetsRed(x1), CupboardsOld(x3),CabinetsOld(x3), WindowTrim(x5), DoorTrim(x2), WoodCrown(x2), DecorativePillar(x2), StoreShelving (x3), PewSegment(x3), GarageDoorHouse, Window02, Shutters1Plate, HardenedChestSecure, BookcaseEmpty, CoffeeTable, tableDynamic, WoodCatwalkWedge, MetalPillarTable, Coffin, RoadRailing(x4), ChainLink(x8), CorrugatedMetalPillars(x6), ConcreteBarrier
+Here’s a list: CommercialDoor1, CommercialDoor2, CommercialDoor4, HouseFrontDoor1, HouseFrontDoor2, DoorFrameWhite1, DoorFrameWhite2, DoorFrameMetal1, DoorFrameMetal2, CupboardsRed(x1), CabinetsRed(x1), CupboardsOld(x3),CabinetsOld(x3), WindowTrim(x5), DoorTrim(x2), WoodCrown(x2), DecorativePillar(x2), StoreShelving (x3), PewSegment(x3), GarageDoorHouse, Window02, Shutters1Plate, HardenedChestSecure, BookcaseEmpty, CoffeeTable, tableDynamic, WoodCatwalkWedge, MetalPillarTable, Coffin, RoadRailing(x4), ChainLink(x8), CorrugatedMetalPillars(x6), ConcreteBarrier, woodQuarter
 
 FIXES FOR RECIPES AND PERKS  (of course 'fix' is subjective)
 -----------------------------------------
@@ -35,15 +35,18 @@ cntCabinetBottom, cntCupboardCabinetRedTopClosed
 - Include BloodDrawKit Recipe (Locked behind Physician 3)
 
 - Require GreaseMonkey Perk to craft vehicles (not just for vehicles parts)  
-   Each vehicle tied to its appropriate GreaseMonkey Perk level.
+   Each vehicle tied to its appropriate GreaseMonkey Perk level.  
+   
+- Include Bicycle in Trader stock. (rarely and only low level)
 - Include Vehicles in Trader Hidden Stash (Starting at Barter 3)
 
+- Removed TVs from recipes.  They seem out of place. (They've been added to Trader items)
 
 FIX SOME STRANGE UPGRADES, REPAIRS, & ECONOMIC VALUES
 ------------------------------------------------------------------------------------
-A few items already in the game had either screwy economic values, or repair settings.  And a few even have goofy upgrades.  I think most of these were simply overlooked.  We fixed those.
+A few items already in the game had either screwy economic values, or repair settings.  I think most of these were simply overlooked.  We fixed those.
 
-Here’s a list: cntWaterCoolerFull, cntBookcaseFull, woodFenceFarmSheet, woodFenceFarmSheetBroken1, woodFenceFarmSheetBroken2, whitePicketFenceSheet, decoPicnicTable
+Here’s a list: cntWaterCoolerFull, cntBookcaseFull, decoPicnicTable
 
 ADD NEW ITEMS & INCLUDED RECIPES
 ---------------------------------------------------
@@ -93,3 +96,10 @@ cntCardboardBox, cntLootChestHero.
 - To Blocks: For woodPillar50, woodCNRRound, and woodCNRRoundTop the reinforced wooden & metalwood versions needed to be created so they could upgrade through those versions.
 	
 - Reduced economic value of Vehicles (so they cost less than 350,000 dukes.)
+
+Added in v1.2:
+- To Traders: Bicycle (rarely and low level), Lockers (that were missed before), Control Panels.
+
+- To Recipes: woodQuarter, removed TV and LargeTV recipes (seemed out of place and sold at Traders).
+
+- Other: No new blocks, but removed some stuff we used to fix that they fixed in 17.3.  Also, increased Trader swap number and max number to further accomodate the decorative items.  And some general code clean-up for more cross-mod compatibility.  Adding the Read-Me to the Zip not too.
