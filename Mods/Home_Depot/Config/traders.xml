@@ -3,16 +3,20 @@
 	ADD EXISTING ITEMS TO TRADER STOCK LIST
 	================================ -->
 
-	<!-- include commercial blinds in the blinds selection -->
+	<!-- include commercial blinds in the blinds group selection -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
 		<item name="commercialBlindsTop" count="4,15"/>
 		<item name="commercialBlindsBottom" count="4,15"/>
 	</append>
 
-	<!-- include large pipes in a new decorative group -->
+	<!-- remove old large pipes from traders decorative items list -->
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeStraight']"/>
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeValve']"/>
+
+	<!-- start adding new decorative groups -->
 	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
+
+	<!-- include large pipes in a new decorative group -->
 		<trader_item_group name="decorativePipes" count="all">
 			<item name="metalPipeStraight" count="4,8"/>
 			<item name="metalPipeValve" count="2,3"/>
@@ -21,10 +25,8 @@
 			<item name="metalPipeCap" count="1,2"/>
 			<item name="metalPipeFlange" count="1,2"/>
 		</trader_item_group>
-	</insertAfter>
 
 	<!-- include soft ducts in a new decorative group -->
-	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
 		<trader_item_group name="decorativeDucts" count="all">
 			<item name="ductSoft" count="6,10"/>
 			<item name="ductSoftCorner" count="3,5"/>
@@ -32,21 +34,62 @@
 			<item name="ductControlPanel" count="3,5"/>
 			<item name="ductControlPanelCorner" count="2,3"/>
 		</trader_item_group>
-	</insertAfter>
 
 	<!-- include large tv in a new decorative group -->
-	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
 		<trader_item_group name="decorativeLargeTV" count="all">
 			<item name="tv_large_1" count="1"/>
 			<item name="tv_large_2" count="1"/>
 		</trader_item_group>
+
+	<!-- include lockers in a new decorative group -->
+		<trader_item_group name="decorativeLockers" count="1,2">
+			<item name="cntLockersShortClosed"/>
+			<item name="cntLockersTallClosed"/>
+			<item name="cntLockersTallDoubleClosed"/>
+			<item name="cntLockersTallMixClosed"/>
+			<item name="cntLockersTallMixLinkClosed"/>
+		</trader_item_group>
+
+	<!-- include paintings in a new decorative group -->
+		<trader_item_group name="decorativePaintings" count="1,2">
+			<item name="paintingBen"/>
+			<item name="paintingLorien"/>
+			<item name="paintingDerek"/>
+			<item name="paintingNoah"/>
+			<item name="paintingDuke"/>
+			<item name="paintingKen"/>
+		</trader_item_group>
+
+	<!-- include paintings in a new decorative group -->
+		<trader_item_group name="decorativeControlPanels" count="1,3">
+			<item name="controlPanelBase01"/>
+			<item name="controlPanelBase02"/>
+			<item name="controlPanelBase03"/>
+			<item name="controlPanelBase04"/>
+			<item name="controlPanelBase05"/>
+			<item name="controlPanelBase06"/>
+			<item name="controlPanelBase07"/>
+			<item name="controlPanelBase08"/>
+			<item name="controlPanelTop01"/>
+			<item name="controlPanelTop02"/>
+			<item name="controlPanelTop03"/>
+			<item name="controlPanelTop04"/>
+			<item name="controlPanelTop05"/>
+			<item name="controlPanelTop06"/>
+			<item name="controlPanelTop07"/>
+			<item name="controlPanelCorner"/>
+		</trader_item_group>
+
 	</insertAfter>
 
-	<!-- The bug list of added decorative items -->
+	<!-- The big list of added decorative items -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']">
 		<item group="decorativePipes"/>
 		<item group="decorativeDucts"/>
 		<item group="decorativeLargeTV"/>
+		<item group="decorativeLockers"/>
+		<item group="decorativePaintings"/>
+		<item group="decorativeControlPanels"/>
 		<item name="cntWallOven"/>
 		<item name="utilitySink"/>
 		<item name="wallHungSink"/>
@@ -71,12 +114,6 @@
 		<item name="shoppingBasketEmpty"/>
 		<item name="leatherCouchSofa2"/>
 		<item name="barracksChair"/>
-		<item name="paintingBen"/>
-		<item name="paintingLorien"/>
-		<item name="paintingDerek"/>
-		<item name="paintingNoah"/>
-		<item name="paintingDuke"/>
-		<item name="paintingKen"/>
 		<item name="cntCharcoalGrillClosed"/>
 		<item name="cntCharcoalGrillOpen"/>
 		<item name="cntGasGrillClosed"/>
@@ -86,9 +123,6 @@
 		<item name="hospitalBed"/>
 		<item name="cntFileCabinetShortClosed"/>
 		<item name="cntFileCabinetTallClosed"/>
-		<item name="cntLockersTallDoubleClosed"/>
-		<item name="cntLockersTallMixClosed"/>
-		<item name="cntLockersTallMixLinkClosed"/>
 		<item name="heatVent"/>
 		<item name="heatVentIndustrial"/>
 		<item name="cntLaundryBasketVer1Empty"/>
@@ -124,8 +158,11 @@
 		<item name="signRoadWork"/>
 	</append>
 
-	<!-- boost the number of decorative items from "2,7" -->
-	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
+	<!-- Include Bicycle (low level) Rarely in Trader Items -->
+	<remove xpath="//item[contains(@name, 'Placeable')]"/> <!-- possible duplication clean up -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
+		<item name="vehicleBicyclePlaceable" count="1" prob="0.3" quality="1"/>
+	</append>
 
 	<!-- Include Vehicles in Trader Secret Stash starting at Barter 3 -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='stashOnlyItemsLow']">
@@ -140,7 +177,20 @@
 		<item name="vehicleGyrocopterPlaceable" prob="0.02"/>
 	</append>
 
-	<!-- Pull Sleepable Matress out of Traders (added in recipes) -->
+	<!-- Pull Respawn/Bedroll Matress out of Traders (added in recipes) -->
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='mattressFlat']"/>
+
+<!--================================
+	TWEAK TRADER RESTOCK VARIABLES
+	================================ -->
+
+	<!-- boost the number of items circulating to accommodate extra decorative items -->
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/@min_inventory">45</set>
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/@max_inventory">85</set>
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/@min_items_swapped">25</set>
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/@max_items_swapped">25</set>
+	
+	<!-- boost the number of decorative items from "2,7" -->
+	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
 
 </homedepot>

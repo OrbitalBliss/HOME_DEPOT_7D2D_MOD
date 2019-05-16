@@ -278,6 +278,12 @@
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
 
+	<!-- Add recipe for woodQuarter (not upgragable yet) -->
+
+		<recipe name="woodQuarter" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
 	</append>
 
 <!--================================
@@ -312,6 +318,12 @@
 	<setattribute xpath="/recipes/recipe[@name='vehicleMotorcyclePlaceable']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='vehicle4x4TruckPlaceable']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='vehicleGyrocopterPlaceable']" name="tags">learnable</setattribute>
+
+	<!-- Removing TVs from recipes. Added to Trader instead. (was a strange inclusion considering things not available) -->
+	<remove xpath="/recipes/recipe[@name='tv']"/>
+	<remove xpath="/recipes/recipe[@name='tv_large_1']"/>
+	<remove xpath="/recipes/recipe[@name='tv_large_2']"/>
+
 
 <!--================================
 	ADD CRAFTABLE BEDS THAT CAN RELOCATE
