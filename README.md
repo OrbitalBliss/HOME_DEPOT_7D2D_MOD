@@ -104,4 +104,4 @@ Added in v1.2:
 
 - To Recipes: woodQuarter, removed TV and LargeTV recipes (seemed out of place and sold at Traders).
 
-- Other: No new blocks, but removed some stuff we used to fix that they fixed in 17.3.  Also, increased Trader swap number and max number to further accomodate the decorative items.  And some general code clean-up for more cross-mod compatibility.  Added the Read-Me to the Zip.
+- Other: No new blocks, but removed some stuff we used to fix that they fixed in 17.3.  Also, increased Trader swap number and max number to further accomodate the decorative items.  And some general code clean-up for more cross-mod compatibility.  Added the Read-Me to the Zip file.
