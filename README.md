@@ -70,8 +70,8 @@ HOW TO INSTALL
 --------------------------
 Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  
 Do NOT just click "Clone or download" or you'll be downloading all the screenshots and stuff you don't want.  
-Decompress this ZIP directly into your 7 Days to Die install directory.
-If you didn't have a "Mods" folder, this will create one.  You should be ready to go.
+Decompress this ZIP directly into your 7 Days to Die install directory.  
+If you didn't have a "Mods" folder, this will create one.  You should be ready to go.  
 Type 'Home' into your crafting search bar to see most of the things added.
 
 PLEASE ... Always backup your save folder if you are adding mods to pre-existing games.
