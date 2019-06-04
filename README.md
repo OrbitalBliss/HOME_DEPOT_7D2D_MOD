@@ -1,6 +1,6 @@
-Home Depot Mod -- for 7 Days to Die [Alpha 17.3]
+Home Depot Mod -- for 7 Days to Die [Alpha 17.4]
 ------------------------------------------------
-V1.2 by OrbitalBliss
+V1.3 by OrbitalBliss
 
 <img src="Screenshots/20190418045604_1.jpg" width="600" >
 
@@ -66,6 +66,10 @@ ADD WIRELESS ELECTRICAL RELAYS & SWITCHES
 ---------------------------------------------------------------
 In this section we added Wireless (or rather Hidden wires) electrical options.  A ‘Home Wireless Relay Block’ that can be built into structures (and painted if you wish), a ‘Home Wireless Switch Fusebox’ and ‘Home Wireless Switch Electrical Box’ which add those models back in and use them for wireless electrical Switches, and a ‘Home Electrical Pole Top Relay’ for power poles.  Some of this is not perfect, and I'd like to move were the Power Lines come “IN” to some of these, but that looks like it's hard baked into the models.  Also we matched the power usage, of the few things that cost zero watts, to the 1W cost of normal relays.
 
+THE PAINT DEPARTMENT
+---------------------------------------------------------------
+In this section we've restored access to a couple of textures that were included with the paint brush but hidden (Orange Drywall & Tar Paper).  Also, found a few more textures that work decently enough on blocks and included them (Bookcase, Vent, WashingMachine, & Wet Concrete.
+
 HOW TO INSTALL
 --------------------------
 Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  
@@ -87,6 +91,7 @@ These are the things I'd like to work out for the mod. [What the issues are]
 	- I'd also consider requiring Electricity on Tablesaw and Mixer if it were possible.
 - ‘Home Filtered Water Cooler’ to fill on Right Click, like Mirky water sources. [Might be possible, I haven't figured it out]
 - Limit most Home furnishings to be easily moveable within 'Land Claim'. [Might be possible, I haven't figured it out]
+- Hopefully I can find some more good texture candidates to include with the paintbrush.
 
 VERSION HISTORY
 --------------------------
@@ -107,3 +112,7 @@ Added in v1.2:
 - To Recipes: woodQuarter, removed TV and LargeTV recipes (seemed out of place and sold at Traders).
 
 - Other: No new blocks, but removed some stuff we used to fix that they fixed in 17.3.  Also, increased Trader swap number and max number to further accomodate the decorative items.  And some general code clean-up for more cross-mod compatibility.  Added the Read-Me to the Zip file.
+
+Added in v1.3:
+- Restored access to a couple of textures that were included with the paint brush but hidden (Orange Drywall & Tar Paper).
+- Also, found a few textures that work decently enough on blocks and included them (Bookcase, Vent, WashingMachine, & Wet Concrete).
