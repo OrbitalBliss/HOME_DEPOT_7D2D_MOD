@@ -1,0 +1,66 @@
+<homedepot>
+<!--================================
+	UN-HIDE HIDDEN TEXTURES (the ones that aren't bugged)
+	================================ -->
+	<remove xpath="/paints/paint[@id='138']/property[@name='Hidden']"/>
+	<remove xpath="/paints/paint[@id='148']/property[@name='Hidden']"/>
+
+
+<!--================================
+	ADD TEXTURES (that weren't included to begin with)
+	Paint ID numbers available - 75,76,101,102,103,133,146,147,181-255
+	These are the only Texture IDs I have found so far that work on a block decently.
+	================================ -->
+	<!-- UNCOMMENT TO HIDE BUILT IN BRUSH TEXTURES <append xpath="//paint"><property name="Hidden" value="true" /></append> -->
+
+	<append xpath="/paints">
+		<paint id="200" value="txName_HomeBookcase">
+			<property name="TextureId" value="67"/>
+			<property name="Group" value="Home Depot"/>
+			<property name="PaintCost" value="2" />
+		</paint>
+
+		<paint id="201" value="txName_HomeVent">
+			<property name="TextureId" value="340"/>
+			<property name="Group" value="Home Depot"/>
+			<property name="PaintCost" value="2" />
+		</paint>
+
+		<paint id="202" value="txName_HomeWashingMachine">
+			<property name="TextureId" value="554"/>
+			<property name="Group" value="Home Depot"/>
+			<property name="PaintCost" value="2" />
+		</paint>
+
+		<paint id="203" value="txName_HomeWetConcrete">
+			<property name="TextureId" value="176"/>
+			<property name="Group" value="Home Depot"/>
+			<property name="PaintCost" value="2" />
+		</paint>
+
+<!-- Probably should make/keep Hidden? -->
+		<paint id="250" value="txName_HomeLCB">
+			<property name="TextureId" value="189"/>
+			<property name="Group" value="Home Depot"/>
+			<property name="PaintCost" value="2" />
+			<property name="Hidden" value="true" />
+		</paint>
+	</append>
+
+
+<!--================================
+	TEXTURE ID NUMBERS (Different than Paint ID Numbers)
+	================================ -->
+
+<!-- Texture IDs Already Included In Brush -->
+<!--
+0,7,8,9,11,12,13,14,15,21,22,23,24,25,43,44,46,50,51,52,53,54,55,56,57,58,59,60,61,62,64,65,73,74,75,76,77,78,79,81,84
+116,168,169,170,171,172,173,174,190,191,192,193,194,196
+214,216,217,226,227,229,241,245,246,247,248,261,262,263,267,268,270,272,276,282,284,299
+302,303, 307,311,312,314,315,319,320,321,328,329,330,331,332,334,335,336,337,341,342,344,345,346,352,355,356,358,361,369,372,373,374,379,380,382,384,385,391
+407,408,413,418,419,420,421,422,427,428,429,430,435,436,443,445,446
+519,525,531,532,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,552,553,555,571,572,580,581,582,583,584,585,586,587,588,589,590,591,592,593
+600,601
+-->
+
+</homedepot>

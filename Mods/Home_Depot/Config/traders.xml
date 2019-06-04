@@ -9,9 +9,10 @@
 		<item name="commercialBlindsBottom" count="4,15"/>
 	</append>
 
-	<!-- remove old large pipes from traders decorative items list -->
+	<!-- remove old large pipes and locker from traders decorative items list -->
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeStraight']"/>
 	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeValve']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='cntLockersShortClosed']"/>
 
 	<!-- start adding new decorative groups -->
 	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
