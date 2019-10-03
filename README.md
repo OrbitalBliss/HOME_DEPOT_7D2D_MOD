@@ -48,6 +48,8 @@ A few items already in the game had either screwy economic values, or repair set
 
 Here’s a list: cntWaterCoolerFull, cntBookcaseFull, cntBookcaseEmpty, decoPicnicTable, cntMunitionsBox
 
+Added a few more sources for Brass:  Destroyed doors with Brass handles give a doorknob, Blass Lamp can be harvested.
+
 ADD NEW ITEMS & INCLUDED RECIPES
 ---------------------------------------------------
 In this section we added new items/blocks, which are mostly variations of existing ones, and usually add some functionality to the Player built version.  Also, usually, the Player version is locked behind an appropriate Perk wall, and requires the Trader (non-functioning) version to craft.  Most things in this section can be easily found by typing ‘Home’ into your crafting search bar.
