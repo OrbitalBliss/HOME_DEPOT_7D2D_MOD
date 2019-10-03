@@ -173,6 +173,7 @@
 		<property name="EconomicValue" value="24"/>
 	</append>
 
+
 <!--================================
 	FIX SNOWBERRY GROWTH STATE
 	================================ -->
@@ -767,7 +768,7 @@
 	</append>
 
 <!--================================
-	FIX SOME STRANGE (overlooked?) UPGRADES & REPAIRS
+	FIX SOME STRANGE (overlooked?) UPGRADES, REPAIRS, & HARVESTS
 	================================ -->
 	<!-- Fix Picnic table not having a repair material -->
 	<append xpath="/blocks/block[@name='decoPicnicTable']">
@@ -775,6 +776,35 @@
 			<property name="resourceWood" value="8"/>
 		</property>
 	</append>
+	<!-- Fix cntBookcaseEmpty not having a repair material -->
+	<append xpath="/blocks/block[@name='cntBookcaseEmpty']">
+		<property class="RepairItems"> <property name="resourceWood" value="8"/> </property>
+	</append>
+	<!-- Fix cntMunitionsBox not having a repair material -->
+	<append xpath="/blocks/block[@name='cntMunitionsBox']">
+		<property class="RepairItems"> <property name="resourceForgedIron" value="2"/> </property>
+	</append>
+
+	<!-- Fix Strange Pipe not giving Brass like it's twin -->
+	<append xpath="/blocks/block[@name='pipeSmallWallValve']">
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceScrapBrass" count="15,30" tag="salvageHarvest"/>
+		<drop event="Harvest" name="resourceMechanicalParts" count="1" prob="0.5" tag="salvageHarvest"/>
+	</append>
+
+	<!-- Add Brass on Harvest of the Brass desk lamp -->
+	<append xpath="/blocks/block[@name='deskLampLight']">
+		<drop event="Harvest" name="resourceScrapBrass" count="15,30" tag="salvageHarvest"/>
+	</append>
+
+	<!-- Add Brass doorknob drop on destroyed house doors -->
+	<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+		<drop event="Destroy" name="resourceDoorKnob" count="1" prob="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='houseFrontDoor1_v2']">
+		<drop event="Destroy" name="resourceDoorKnob" count="0" prob="1"/>
+	</append>
+
 
 	<!-- Fix Wood Pillar 50 to be craftable and upgradable, which includes creating rWoodPillar50 & rWoodMetalPillar50 -->
 	<set xpath="/blocks/block[@name='woodPillar50']/property[@name='Extends']/@value">woodMaster</set>
