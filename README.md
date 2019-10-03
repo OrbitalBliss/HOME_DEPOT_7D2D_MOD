@@ -1,6 +1,6 @@
 Home Depot Mod -- for 7 Days to Die [Alpha 17.4]
 ------------------------------------------------
-V1.3 by OrbitalBliss
+V1.4 (FINAL Alpha 17 Version) by OrbitalBliss
 
 <img src="Screenshots/20190418045604_1.jpg" width="600" >
 
@@ -46,7 +46,7 @@ FIX SOME STRANGE UPGRADES, REPAIRS, & ECONOMIC VALUES
 ------------------------------------------------------------------------------------
 A few items already in the game had either screwy economic values, or repair settings.  I think most of these were simply overlooked.  We fixed those.
 
-Here’s a list: cntWaterCoolerFull, cntBookcaseFull, decoPicnicTable
+Here’s a list: cntWaterCoolerFull, cntBookcaseFull, cntBookcaseEmpty, decoPicnicTable, cntMunitionsBox
 
 ADD NEW ITEMS & INCLUDED RECIPES
 ---------------------------------------------------
@@ -116,3 +116,12 @@ Added in v1.2:
 Added in v1.3:
 - Restored access to a couple of textures that were included with the paint brush but hidden (Orange Drywall & Tar Paper).
 - Also, found a few textures that work decently enough on blocks and included them (Bookcase, Vent, WashingMachine, & Wet Concrete).
+
+Added in v1.4:
+- FINAL Alpha 17 version.
+- Added repair materials for cntBookcaseEmpty, and cntMunitionsBox.
+- Fixed Brass harvest from pipeSmallWallValve. To match pipeSmallValve.
+- Added Brass harvest from Brass Table Lamp (deskLampLight).
+- Added Brass Doorknob drop from destroying House doors with brass handles.
+
+
