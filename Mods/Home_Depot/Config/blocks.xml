@@ -308,7 +308,7 @@
 			<property name="Extends" value="Home Campfire Helper"/>
 			<property name="CustomIcon" value="cntGasGrillOpen"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/LootContainers/GasGrill_EmptyPrefab"/>
+			<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 			<property name="Path" value="solid"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="EconomicValue" value="244"/>
@@ -317,7 +317,7 @@
 			<property name="Extends" value="Home Campfire Helper"/>
 			<property name="CustomIcon" value="cntGasGrillClosed"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/LootContainers/GasGrill_FullPrefab"/>
+			<property name="Model" value="#Entities/LootContainers?GasGrill_FullPrefab.prefab"/>
 			<property name="Path" value="solid"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="EconomicValue" value="244"/>
@@ -326,7 +326,7 @@
 			<property name="Extends" value="Home Campfire Helper"/>
 			<property name="CustomIcon" value="cntCharcoalGrillOpen"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/LootContainers/Grill_Simple_EmptyPrefab"/>
+			<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 			<property name="Path" value="solid"/>
 			<property name="Place" value="TowardsPlacer90"/>
 			<property name="EconomicValue" value="244"/>
@@ -335,7 +335,7 @@
 			<property name="Extends" value="Home Campfire Helper"/>
 			<property name="CustomIcon" value="cntCharcoalGrillClosed"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/LootContainers/Grill_Simple_ClosedPrefab"/>
+			<property name="Model" value="#Entities/LootContainers?Grill_Simple_ClosedPrefab.prefab"/>
 			<property name="Path" value="solid"/>
 			<property name="Place" value="TowardsPlacer90"/>
 			<property name="EconomicValue" value="244"/>
@@ -379,7 +379,7 @@
 			<property name="Extends" value="Home Watersource Helper"/>
 			<property name="CustomIcon" value="wallHungSink"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/Plumbing/wall_hung_sinkPrefab"/>
+			<property name="Model" value="#Entities/LootContainers?wallHungSinkPrefab.prefab"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="144"/>
 			<drop event="Destroy" name="Home Wall Sink" count="1" prob="1"/>
@@ -425,7 +425,7 @@
 			<property name="Extends" value="Home Watersource Helper"/>
 			<property name="CustomIcon" value="cntWaterCoolerFull"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="Entities/LootContainers/water_cooler_fullPrefab" />
+			<property name="Model" value="#Entities/LootContainers?water_cooler_fullPrefab.prefab" />
 			<property name="StabilitySupport" value="false"/>
 			<property name="DisplayType" value="blockMulti" />
 			<property name="MultiBlockDim" value="1,2,1"/>

@@ -3,6 +3,7 @@
 	ADD WORKING APPLIANCES
 	================================ -->
 	<!-- New Water Sources Fill Containers -->
+	<!--
 	<append xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']">
 		<property name="Focused_blockname_6" value="Home Utility Sink"/>
 		<property name="Focused_blockname_7" value="Home Wall Sink"/>
@@ -10,6 +11,7 @@
 		<property name="Focused_blockname_9" value="Home Granite Sink"/>
 		<property name="Focused_blockname_10" value="Home Fountain"/>
 	</append>
+-->
 	<append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
 		<property name="Focused_blockname_6" value="Home Utility Sink"/>
 		<property name="Focused_blockname_7" value="Home Wall Sink"/>
