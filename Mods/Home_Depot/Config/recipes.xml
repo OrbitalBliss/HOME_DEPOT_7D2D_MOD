@@ -177,6 +177,7 @@
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
 
+<!--
 		<recipe name="decoPillarRoundCentered" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
@@ -185,6 +186,7 @@
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
+	-->
 
 		<recipe name="roadRailing" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true" tags="learnable">
 			<ingredient name="unit_iron" count="50"/>
@@ -293,9 +295,17 @@
 	?FIX Any other strange Requirements of Perks/Attributes
 	================================ -->
 	<!-- Existing recipes that should have required tablesaw -->
-	<setattribute xpath="/recipes/recipe[@name='cntCabinetBottom']" name="craft_area">tablesaw</setattribute>
-	<setattribute xpath="/recipes/recipe[@name='cntCupboardCabinetRedTopClosed']" name="craft_area">tablesaw</setattribute>
-
+	<append xpath="/recipes">
+		<recipe name="cntCabinetBottom" count="1" craft_time="4" craft_area="tablesaw" tags="learnable,tableSawCrafting">
+			<ingredient name="resourceGlue" count="2" />
+			<ingredient name="resourceWood" count="10" />		
+		</recipe>
+		<recipe name="cntCupboardCabinetRedTopClosed" count="1" craft_time="4" craft_area="tablesaw" tags="learnable,tableSawCrafting">
+			<ingredient name="resourceGlue" count="2" />
+			<ingredient name="resourceWood" count="10" />		
+		</recipe>
+	</append>
+	
 	<!-- Include Snowberry Recipe (Locked behind LivingOffTheLand 3) -->
 	<append xpath="/recipes">
 		<recipe name="plantedSnowberry1" count="1" craft_time="4" tags="learnable">
