@@ -1,6 +1,7 @@
-Home Depot Mod -- for 7 Days to Die [Alpha 17.4]
+Home Depot Mod -- for 7 Days to Die [A18patch]
 ------------------------------------------------
 V1.4 (FINAL Alpha 17 Version) by OrbitalBliss
+Thanks to XelaNull for patching it for A18.
 
 <img src="Screenshots/20190418045604_1.jpg" width="600" >
 
