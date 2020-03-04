@@ -49,10 +49,6 @@
 		<property name="EconomicValue" value="44"/>
 		<property class="RepairItems"> <property name="resourceElectricParts" value="4"/> </property>
 	</append>
-	<append xpath="/blocks/block[@name='shoppingBasketEmpty']">
-		<property name="EconomicValue" value="14"/>
-		<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
-	</append>
 	<append xpath="/blocks/block[@name='leatherCouchSofa2']">
 		<property class="RepairItems"> <property name="resourceLeather" value="4"/> </property>
 	</append>
@@ -86,10 +82,6 @@
 	<append xpath="/blocks/block[@name='cntDumpster']">
 		<property name="EconomicValue" value="24"/>
 		<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
-	</append>
-	<append xpath="/blocks/block[@name='tire']">
-		<property name="EconomicValue" value="14"/>
-		<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
 	</append>
 	<append xpath="/blocks/block[@name='cntWaterCoolerBottle']">
 		<property name="EconomicValue" value="14"/>
