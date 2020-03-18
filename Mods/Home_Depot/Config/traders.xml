@@ -184,10 +184,11 @@
 	================================ -->
 
 	<!-- boost the number of items circulating to accommodate extra decorative items -->
+	<!-- Removing due to a maxValue ArgumentOutOfRangeException error which causes the trader's secret stash to not appear
 	<set xpath="/traders/trader_info[@id='1']/@min_inventory">45</set>
 	<set xpath="/traders/trader_info[@id='1']/@max_inventory">85</set>
 	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">25</set>
-	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">25</set>
+	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">25</set>-->
 	
 	<!-- boost the number of decorative items from "2,7" -->
 	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
