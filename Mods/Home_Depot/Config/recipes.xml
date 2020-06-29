@@ -313,15 +313,6 @@
 		</recipe>
 	</append>
 
-	<!-- Include BloodDrawKit Recipe (Locked behind Physician 3) -->
-	<append xpath="/recipes">
-		<recipe name="medicalBloodDrawKit" count="1" craft_time="90" tags="learnable">
-			<ingredient name="resourceScrapPolymers" count="8"/>
-			<ingredient name="medicalBandage" count="1"/>
-			<ingredient name="resourceGlue" count="2"/>
-		</recipe>
-	</append>
-
 	<!-- Change actual Vehicles to require GreaseMonkey (not just vehicle parts) -->
 	<setattribute xpath="/recipes/recipe[@name='vehicleBicyclePlaceable']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='vehicleMinibikePlaceable']" name="tags">learnable</setattribute>
