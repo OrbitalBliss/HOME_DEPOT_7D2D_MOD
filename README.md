@@ -86,6 +86,16 @@ Type 'Home' into your crafting search bar to see most of the things added.
 
 PLEASE ... Always backup your save folder if you are adding mods to pre-existing games.
 
+SUPPORT
+--------------------------
+The Pimps (devs) made is abundantly clear several alphas ago that they are way too interested in gently sucking twitch streamers off than putting any effort into working with modders.
+
+This has has the effect of dampening my enthusiasm for trying to make their game better. Haven't even been playing the game for ages now.
+
+So... I'm not going to be providing support for the mods. I know it's still popular, and some wonderful folk out there periodically push a patch at me to get it working with the newest alpha. Because, unlike the FunPimps, I do value their efforts I will find some time to integrate their work and get it back up. But that's it, I'm doing no more than that. Best of luck to you, I hope you can get everything working and can enjoy the mod.
+
+Take care.
+
 GOALS & OBSTACLES
 --------------------------
 These are the things I'd like to work out for the mod. [What the issues are]
