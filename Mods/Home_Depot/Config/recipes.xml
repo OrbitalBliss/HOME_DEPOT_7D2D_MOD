@@ -16,24 +16,24 @@
 			<ingredient name="resourceForgedIron" count="10"/>
 		</recipe>
 
-		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
+		<recipe name="houseFrontDoor1_v1" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
-		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw">
+		<recipe name="houseFrontDoor2_v1" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
-		<recipe name="doorFrameWhite1" count="1" craft_area="tablesaw">
+		<recipe name="doorFrameWhite1" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="5"/>
 		</recipe>
-		<recipe name="doorFrameWhite2" count="1" craft_area="tablesaw">
+		<recipe name="doorFrameWhite2" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="5"/>
 		</recipe>
 
-		<recipe name="doorFrameMetal1" count="1" craft_area="tablesaw">
+		<recipe name="doorFrameMetal1" count="1" craft_area="workbench">
 			<ingredient name="resourceForgedIron" count="5"/>
 		</recipe>
-		<recipe name="doorFrameMetal2" count="1" craft_area="tablesaw">
+		<recipe name="doorFrameMetal2" count="1" craft_area="workbench">
 			<ingredient name="resourceForgedIron" count="5"/>
 		</recipe>
 
@@ -43,12 +43,12 @@
 			<ingredient name="resourceMechanicalParts" count="8"/>
 		</recipe>
 
-		<recipe name="window02" count="1" craft_area="tablesaw">
+		<recipe name="window02" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="8"/>
 			<ingredient name="glassCTRSheet" count="1"/>
 		</recipe>
 
-		<recipe name="shutters1Plate" count="1" craft_area="tablesaw">
+		<recipe name="shutters1Plate" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
 
@@ -65,20 +65,20 @@
 			<ingredient name="resourceGlue" count="2"/>
 		</recipe>
 
-		<recipe name="cntCoffin" count="1" craft_area="tablesaw">
+		<recipe name="cntCoffin" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 			<ingredient name="resourceNail" count="10"/>
 		</recipe>
 
-		<recipe name="pew_segment01" count="1" craft_area="tablesaw">
+		<recipe name="pew_segment01" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
-		<recipe name="pew_segment02" count="1" craft_area="tablesaw">
+		<recipe name="pew_segment02" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
-		<recipe name="pew_segment03" count="1" craft_area="tablesaw">
+		<recipe name="pew_segment03" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
@@ -93,22 +93,22 @@
 			<ingredient name="resourceForgedIron" count="3"/>
 		</recipe>
 		
-		<recipe name="cntBookcaseEmpty" count="1" craft_area="tablesaw">
+		<recipe name="cntBookcaseEmpty" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 			<ingredient name="resourceNail" count="4"/>
 		</recipe>
 
-		<recipe name="coffeeTable" count="1" craft_area="tablesaw">
+		<recipe name="coffeeTable" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 			<ingredient name="resourceNail" count="4"/>
 		</recipe>
 
-		<recipe name="tableDynamic" count="1" craft_area="tablesaw">
+		<recipe name="tableDynamic" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 			<ingredient name="resourceNail" count="4"/>
 		</recipe>
 
-		<recipe name="woodCatwalkWedge" count="1" craft_area="tablesaw">
+		<recipe name="woodCatwalkWedge" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="8"/>
 		</recipe>
 
@@ -117,72 +117,72 @@
 			<ingredient name="resourceMetalPipe" count="2"/>
 		</recipe>
 
-		<recipe name="cntCupboardCornerCNRRed" count="1" craft_area="tablesaw">
+		<recipe name="cntCupboardCornerCNRRed" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
-		<recipe name="cntCupboardCabinetFullRedTopClosed" count="1" craft_area="tablesaw">
+		<recipe name="cntCupboardCabinetFullRedTopClosed" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
-		<recipe name="cntCupboardCabinetOldTopClosed" count="1" craft_area="tablesaw">
+		<recipe name="cntCupboardCabinetOldTopClosed" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
-		<recipe name="cntCupboardCabinetFullOldTopClosed" count="1" craft_area="tablesaw">
+		<recipe name="cntCupboardCabinetFullOldTopClosed" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
-		<recipe name="cntCupboardCornerCNROld" count="1" craft_area="tablesaw">
+		<recipe name="cntCupboardCornerCNROld" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
-		<recipe name="cntCabinetOldBottom" count="1" craft_area="tablesaw">
+		<recipe name="cntCabinetOldBottom" count="1" craft_area="workbench">
 			<ingredient name="resourceCobblestones" count="4"/>
 			<ingredient name="cntCupboardCabinetOldTopClosed" count="1"/>
 		</recipe>
-		<recipe name="cntCabinetOldCNRRoundFiller" count="1" craft_area="tablesaw">
+		<recipe name="cntCabinetOldCNRRoundFiller" count="1" craft_area="workbench">
 			<ingredient name="resourceCobblestones" count="4"/>
 			<ingredient name="cntCupboardCabinetOldTopClosed" count="1"/>
 		</recipe>
 
-		<recipe name="woodWallStud" count="1" craft_area="tablesaw">
+		<recipe name="woodWallStud" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="8"/>
 		</recipe>
-		<recipe name="woodFloorJoist" count="1" craft_area="tablesaw">
+		<recipe name="woodFloorJoist" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="8"/>
 		</recipe>
 
-		<recipe name="woodCrown" count="1" craft_area="tablesaw">
+		<recipe name="woodCrown" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="woodCrownInsideCorner" count="1" craft_area="tablesaw">
+		<recipe name="woodCrownInsideCorner" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
 		
-		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw">
+		<recipe name="woodWindowTrim" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw">
+		<recipe name="woodWindowTrimBottom" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw">
+		<recipe name="woodWindowTrimTop" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw">
+		<recipe name="woodWindowTrimSides" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw">
+		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="doorTrimTop" count="1" craft_area="tablesaw">
+		<recipe name="doorTrimTop" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
-		<recipe name="doorTrim2m" count="1" craft_area="tablesaw">
+		<recipe name="doorTrim2m" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="6"/>
 		</recipe>
 
 <!--
-		<recipe name="decoPillarRoundCentered" count="1" craft_area="tablesaw">
+		<recipe name="decoPillarRoundCentered" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
-		<recipe name="decoPillarSquareCentered" count="1" craft_area="tablesaw">
+		<recipe name="decoPillarSquareCentered" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceNail" count="5"/>
 		</recipe>
@@ -269,20 +269,20 @@
 
 	<!-- Add recipe for woodPillar50 & woodCNRRound & woodCNRRoundTop which will upgrade through the new reinforced & and woodMetalreinforced versions -->
 
-		<recipe name="woodPillar50" count="1" craft_area="tablesaw">
+		<recipe name="woodPillar50" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
-		<recipe name="woodCNRRound" count="1" craft_area="tablesaw">
+		<recipe name="woodCNRRound" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
-		<recipe name="woodCNRRoundTop" count="1" craft_area="tablesaw">
+		<recipe name="woodCNRRoundTop" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 		</recipe>
 
 	<!-- Add recipe for woodQuarter (not upgragable yet) -->
 
-		<recipe name="woodQuarter" count="1" craft_area="tablesaw">
+		<recipe name="woodQuarter" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
@@ -296,11 +296,11 @@
 	================================ -->
 	<!-- Existing recipes that should have required tablesaw -->
 	<append xpath="/recipes">
-		<recipe name="cntCabinetBottom" count="1" craft_time="4" craft_area="tablesaw" tags="learnable,tableSawCrafting">
+		<recipe name="cntCabinetBottom" count="1" craft_time="4" craft_area="workbench" tags="learnable,tableSawCrafting">
 			<ingredient name="resourceGlue" count="2" />
 			<ingredient name="resourceWood" count="10" />		
 		</recipe>
-		<recipe name="cntCupboardCabinetRedTopClosed" count="1" craft_time="4" craft_area="tablesaw" tags="learnable,tableSawCrafting">
+		<recipe name="cntCupboardCabinetRedTopClosed" count="1" craft_time="4" craft_area="workbench" tags="learnable,tableSawCrafting">
 			<ingredient name="resourceGlue" count="2" />
 			<ingredient name="resourceWood" count="10" />		
 		</recipe>
@@ -343,7 +343,7 @@
 			<ingredient name="resourceMetalPipe" count="10"/>
 			<ingredient name="Home Mattress" count="1"/>
 		</recipe>
-		<recipe name="Home Large Bed" count="1" craft_area="tablesaw">
+		<recipe name="Home Large Bed" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="20"/>
 			<ingredient name="resourceMetalPipe" count="5"/>
 			<ingredient name="resourceFeather" count="40"/>
