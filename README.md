@@ -1,9 +1,8 @@
 Home Depot Mod -- for 7 Days to Die [A19patch]
 ------------------------------------------------
-V1.4 (FINAL Alpha 17 Version) by OrbitalBliss
+Version A19.m1.4 by OrbitalBliss
 
-Thanks to XelaNull for patching for A18.
-Thanks to branjos for patching for A19.
+Thanks to XelaNull and branjos for some patching between A17 and A19.
 
 
 <img src="Screenshots/20190418045604_1.jpg" width="600" >
@@ -78,23 +77,13 @@ In this section we've restored access to a couple of textures that were included
 
 HOW TO INSTALL
 --------------------------
-Simply download the Home_Depot_v1.0.zip file (or whatever the current release is).  
+Simply download the latest release.
 Do NOT just click "Clone or download" or you'll be downloading all the screenshots and stuff you don't want.  
 Decompress this ZIP directly into your 7 Days to Die install directory.  
 If you didn't have a "Mods" folder, this will create one.  You should be ready to go.  
 Type 'Home' into your crafting search bar to see most of the things added.
 
 PLEASE ... Always backup your save folder if you are adding mods to pre-existing games.
-
-SUPPORT
---------------------------
-The Pimps (devs) made is abundantly clear several alphas ago that they are way too interested in gently sucking twitch streamers off than putting any effort into working with modders.
-
-This has has the effect of dampening my enthusiasm for trying to make their game better. Haven't even been playing the game for ages now.
-
-So... I'm not going to be providing support for the mods. I know it's still popular, and some wonderful folk out there periodically push a patch at me to get it working with the newest alpha. Because, unlike the FunPimps, I do value their efforts I will find some time to integrate their work and get it back up. But that's it, I'm doing no more than that. Best of luck to you, I hope you can get everything working and can enjoy the mod.
-
-Take care.
 
 GOALS & OBSTACLES
 --------------------------
@@ -140,4 +129,5 @@ Added in v1.4:
 - Added Brass harvest from Brass Table Lamp (deskLampLight).
 - Added Brass Doorknob drop from destroying House doors with brass handles.
 
+- Then patched a couple times with the help of and XelaNull and branjos to keep it afloat for A18 and A19.
 
