@@ -5,7 +5,7 @@ Version A19.m1.4 by OrbitalBliss
 Thanks to XelaNull and branjos for some patching between A17 and A19.
 
 
-<img src="Screenshots/20190418045604_1.jpg" width="600" >
+<img src="https://i.imgur.com/ekv4ky0.jpg" width="600" >
 
 Welcome to Home Depot where, if you can't buy it, we can help you build it.  
 This mod adds many (most) decorative items already in the game to either your crafting lists, or to the Traders items (at least as a rare Hidden Stash).  It also fixes a couple established recipes and Perk walls (and, yes, 'Fixes' is a subjective term).  But I did try to leave most things the way the Devs made them.  
