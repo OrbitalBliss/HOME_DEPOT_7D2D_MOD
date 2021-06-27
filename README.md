@@ -1,6 +1,6 @@
 Home Depot Mod -- for 7 Days to Die [A19patch]
 ------------------------------------------------
-Version A19.m1.4 by OrbitalBliss
+Version: v.A19.m1.4 by OrbitalBliss
 
 Thanks to XelaNull and branjos for some patching between A17 and A19.
 
