@@ -77,8 +77,7 @@ In this section we've restored access to a couple of textures that were included
 
 HOW TO INSTALL
 --------------------------
-Simply download the latest release.
-Do NOT just click "Clone or download" or you'll be downloading all the screenshots and stuff you don't want.  
+Simply download the latest release. (the Source Code Zip for that release)
 Decompress this ZIP directly into your 7 Days to Die install directory.  
 If you didn't have a "Mods" folder, this will create one.  You should be ready to go.  
 Type 'Home' into your crafting search bar to see most of the things added.
